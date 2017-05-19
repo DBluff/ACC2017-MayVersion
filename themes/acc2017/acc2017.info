@@ -1,0 +1,28 @@
+name = acc2017
+description = Austin Community College 2017 Redesign Theme
+core = 7.x
+screenshot = screenshot.png
+
+; STYLESHEETS
+;-------------------------------------------------------------------------------
+stylesheets[all][] = fonts/font-awesome-4.7.0/css/font-awesome.min.css
+stylesheets[all][] = fonts/gotham/gotham.css
+stylesheets[all][] = css/colors.css
+stylesheets[all][] = sass/style.css
+
+
+; SCRIPTS
+;-------------------------------------------------------------------------------
+scripts[] = js/custom.js
+
+; REGIONS
+;-------------------------------------------------------------------------------
+regions[header] = Header
+regions[user_nav] = User navigation
+regions[highlight] = Highlighted
+regions[help] = Help
+regions[content] = Content
+regions[sidebar_first] = Sidebar first
+regions[sidebar_second] = Sidebar second
+regions[footer] = Footer
+

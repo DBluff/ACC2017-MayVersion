@@ -1,0 +1,4 @@
+name = ACC Social Media
+description = This module adds a social media query to the cron so that pages that display social media on the site are updated frequently.
+core = 7.x
+package = ACC Custom Modules

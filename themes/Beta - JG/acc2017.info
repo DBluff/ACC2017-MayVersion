@@ -1,0 +1,36 @@
+name = ACC 2017
+
+description = ACC's 2017 Front Facing Drupal Theme using Material design concepts from MaterializeCSS
+core = 7.x
+screenshot = screenshot.png
+dependencies[] = jquery_update
+
+; STYLESHEETS
+;-------------------------------------------------------------------------------
+stylesheets[all][] = fonts/font-awesome-4.7.0/css/font-awesome.min.css
+stylesheets[all][] = fonts/gotham/gotham.css
+stylesheets[all][] = css/materialize.min.css
+stylesheets[all][] = css/colors.css
+stylesheets[all][] = project/stylesheets/doug.css
+stylesheets[all][] = untitled/stylesheets/jamie.css
+stylesheets[all][] = css/responsiveD.css
+stylesheets[all][] = css/responsive.css
+
+; SCRIPTS
+;-------------------------------------------------------------------------------
+scripts[] = js/materialize.min.js
+scripts[] = js/custom.js
+scripts[] = js/searchBars.js
+scripts[] = js/stickyNav.js
+scripts[] = js/topPage.js
+scripts[] = temp/careerCoach/dynamicChart.js
+
+; REGIONS
+;-------------------------------------------------------------------------------
+regions[homepage_hero_band] = Homepage Hero Image Band
+regions[transparent_hero_band] = Transparent Hero Band
+regions[breadcrumb] = Breadcrumb
+regions[side_nav] = Side Navigation
+regions[hero_band] = Hero Image Band
+regions[content_band] = Content Band
+regions[content] = Content

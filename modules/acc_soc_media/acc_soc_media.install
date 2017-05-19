@@ -1,0 +1,44 @@
+<?php
+function acc_soc_media_schema() {
+    $schema['soc_media'] = array(
+        'description' => 'This table holds recent social media data to be displayed',
+        'fields' => array(
+            'sid' => array(
+                'description' => 'The primary identifier for a node.',
+                'type' => 'serial',
+                'unsigned' => TRUE,
+                'not null' => TRUE,
+            ),
+            'embed' => array(
+                'description' => 'The embed information.',
+                'type' => 'varchar',
+                'length' => 8192,
+                'not null' => TRUE,
+                'default' => 0,
+                ),
+            'type' => array(
+                'description' => 'The media type of this data.',
+                'type' => 'varchar',
+                'length' => 32,
+                'not null' => TRUE,
+                'default' => '',
+                ),
+            'imgurl' => array(
+                'description' => 'the image url for Instagram.',
+                'type' => 'varchar',
+                'length' => 255,
+                'not null' => TRUE,
+                'default' => '',
+                ),
+            'twittext' => array(
+                'description' => 'Twitter text.',
+                'type' => 'varchar',
+                'length' => 255,
+                'not null' => TRUE,
+                'default' => '',
+                ),
+        ),
+        'primary key' => array('sid'),
+    );
+    return $schema;
+}
