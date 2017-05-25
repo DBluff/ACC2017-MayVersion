@@ -44,26 +44,29 @@
  * @ingroup themeable
  */
 ?><!DOCTYPE html>
-<html lang="<?php print $language->language; ?>" dir="<?php print $language->dir; ?>" class="no-js" <?php print $rdf_namespaces; ?>>
+<html lang="<?php print $language->language; ?>"
+      dir="<?php print $language->dir; ?>"
+      class="no-js" <?php print $rdf_namespaces; ?>>
 <head profile="<?php print $grddl_profile; ?>">
-  <title><?php print $head_title; ?></title>
+    <title><?php print $head_title; ?></title>
   <?php print $head; ?>
   <?php print $styles; ?>
-  <!-- HTML5 element support for IE6-8 -->
-  <!--[if lt IE 9]>
+    <!-- HTML5 element support for IE6-8 -->
+    <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-  <![endif]-->
+    <![endif]-->
 </head>
 
-<body class="<?php print $classes; ?>" <?php print $attributes;?>>
+<body class="<?php print $classes; ?>" <?php print $attributes; ?>>
 
-  <div id="skip-link">
-    <a href="#middle-content" class="element-invisible element-focusable"><?php print t('Skip to main content'); ?></a>
-  </div>
-  <?php print $page_top; ?>
-  <?php print $page; ?>
-  <?php print $page_bottom; ?>
-  <?php print $scripts; ?>
+<div id="skip-link">
+    <a href="#middle-content"
+       class="element-invisible element-focusable"><?php print t('Skip to main content'); ?></a>
+</div>
+<?php print $page_top; ?>
+<?php print $page; ?>
+<?php print $page_bottom; ?>
+<?php print $scripts; ?>
 </body>
 <script>
     var tag = document.createElement('script');
@@ -71,19 +74,6 @@
     var firstScriptTag = document.getElementsByTagName('script')[0];
     firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
     var player;
-    function onYouTubeIframeAPIReady() {
-        player = new YT.Player('player', {
-            height: 'auto',
-            width: '100%',
-            videoId: '<?php print $videoID[0] ?>',
-            playerVars: {
-                autoplay: 0
-            }
-        });
-    }
-    function onPlayerReady(event) {
-        event.target.playVideo();
-    }
     jQuery(document).ready(function () {
         jQuery('.button-collapse').sideNav({
                 menuWidth: 300,
@@ -92,39 +82,36 @@
                 draggable: false
             }
         );
+        jQuery('.modal').modal();
     });
     window.onload = function () {
-        jQuery('.row.aud_menu a').each(function () {
+        jQuery('#navAud a').each(function () {
             var $this = jQuery(this),
                 href = $this.attr('href');
             $this.attr('href', '#');
-        })
-        jQuery('.primaryMenu a').each(function () {
-            if (jQuery(this).attr('href') != '/campus-life') {
-                var $this = jQuery(this),
-                    href = $this.attr('href');
-                $this.attr('href', '#');
-            }
-        })
-        jQuery('.footMenu a').each(function () {
-            var $this = jQuery(this),
-                href = $this.attr('href');
-            $this.attr('href', '#');
-        })
-        jQuery('.sideNav a').each(function () {
-            if (jQuery(this).attr('href') != '/campus-life') {
-                var $this = jQuery(this),
-                    href = $this.attr('href');
-                $this.attr('href', '#');
-            }
-        })
-        jQuery('.modal').modal();
-        jQuery('.carousel.carousel-slider').carousel({
-            fullWidth: true,
-            indicators: false,
-            noWrap: false
         });
-    }
+        jQuery('#navPrim a').each(function () {
+            if (jQuery(this).attr('href') != '/campus-life' && jQuery(this).attr('href') != '/learning-support') {
+                var $this = jQuery(this),
+                    href = $this.attr('href');
+                $this.attr('href', '#');
+            }
+        });
+        jQuery('.footMenu a').each(function () {
+            if (jQuery(this).attr('href') != '/campus-life' && jQuery(this).attr('href') != '/learning-support') {
+                var $this = jQuery(this),
+                    href = $this.attr('href');
+                $this.attr('href', '#');
+            }
+        });
+        jQuery('.sideNav a').each(function () {
+            if (jQuery(this).attr('href') != '/campus-life' && jQuery(this).attr('href') != '/learning-support') {
+                var $this = jQuery(this),
+                    href = $this.attr('href');
+                $this.attr('href', '#');
+            }
+        })
+    };
     document.getElementById('leftArrow').addEventListener('click', function () {
         jQuery('.carousel').carousel('prev');
     }, false);
@@ -144,13 +131,24 @@
             jQuery('#halfHeight1').height(jQuery('#halfHeight1').width() / 2);
             jQuery('#halfHeight2').height(jQuery('#halfHeight2').width() / 2);
         }
-        var elementHeights = jQuery('.card').map(function () {
-            return jQuery(this).height();
-        }).get();
-        var minHeight = Math.max.apply(null, elementHeights);
-        var height = minHeight + 'px';
-        var targetDiv = jQuery('.carousel', '#spotCar');
-        jQuery(targetDiv).css('height', height);
     }).resize();
+    function onYouTubeIframeAPIReady() {
+        <?php if (isset($videoID)){ ?>
+        var videoID = <?php print_r($videoID)?>
+    <?php } else { ?>
+        var videoID = 'IpEHk6KBmEY';
+            <?php } ?>
+        player = new YT.Player('player', {
+            height: '100%',
+            width: '100%',
+            videoId: videoID,
+            playerVars: {
+                autoplay: 0
+            }
+        });
+    }
+    function onPlayerReady(event) {
+        event.target.playVideo();
+    }
 </script>
 </html>

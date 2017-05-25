@@ -62,7 +62,7 @@
                 <img class="responsive-img hero"
                      src="<?php print '/sites/default/files/' . ltrim($homepageContent[125]['field_homepage_hero_image'][LANGUAGE_NONE][0]['uri'], 'public://'); ?> ">
                 <div class="row Title">
-                    <div class="col m11 s12 offset-m1 title">
+                    <div class="title">
                       <?php print render($title_prefix); ?>
                       <?php if ($homepageContent[125]['title']): ?>
                         <?php $titlePieces = explode(' ', $homepageContent[125]['title']);
@@ -278,79 +278,84 @@
                             <div class="dividerDiagGrey"></div>
                         </div>
                         <br/>
-                        <div class="row row-content" id="spotCar">
-                            <div class="carousel carousel-slider hide-on-small-only">
-                                <div class="carousel-item">
-                                    <div class="row spotlight">
-                                      <?php
-                                      $spotCounter = 0;
-                                      foreach ($lightTitle as $spots){
-                                      if ($spotCounter % 4 === 0 && $spotCounter !== 0){ ?>
+                        <div class="row" id="spotCar">
+                            <div class="hide-on-small-only">
+<!--                                this is failing? -- why?!?!-->
+                                <div class="carousel carousel-slider">
+                                    <div class="carousel-item">
+                                        <div class="row spotlight">
+                                          <?php
+                                          $spotCounter = 0;
+                                          foreach ($lightTitle as $spots){
+                                          if ($spotCounter % 4 === 0 && $spotCounter !== 0){ ?>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="carousel-item">
-                                    <div class="row spotlight">
-                                      <?php } ?>
-                                        <div class="col m3 cardHeight">
-                                            <div class="card hoverable">
-                                                <div class="card-image waves-effect waves-block waves-light">
-                                                    <img class="activator"
-                                                         src="<?php print '/sites/default/files/' . ltrim($lightImage[$spotCounter], 'public://'); ?>">
-                                                </div>
-                                                <div class="card-content">
+                                    <div class="carousel-item">
+                                        <div class="row spotlight">
+                                          <?php } ?>
+                                            <div class="col m3 cardHeight">
+                                                <div class="card">
+                                                    <div class="card-image">
+                                                        <img class="activator"
+                                                             src="<?php print '/sites/default/files/' . ltrim($lightImage[$spotCounter], 'public://'); ?>">
+                                                    </div>
+                                                    <div class="card-content">
                                     <span class="card-title activator grey-text text-darken-4"><?php print $spots ?>
                                         <i class="material-icons right">more_vert</i></span>
-                                                </div>
-                                                <div class="card-reveal">
+                                                    </div>
+                                                    <div class="card-reveal">
                                     <span class="card-title grey-text text-darken-4"><?php print $lightTitle[$spotCounter] ?>
                                         <i class="material-icons right">close</i></span>
-                                                    <p><?php print $lightBody[$spotCounter] ?></p>
-                                                    <p>
-                                                        <a href="<?php print $lightLink[$spotCounter] ?>">Full
-                                                            Story ></a></p>
+                                                        <p><?php print $lightBody[$spotCounter] ?></p>
+                                                        <p>
+                                                            <a href="<?php print $lightLink[$spotCounter] ?>">Full
+                                                                Story ></a></p>
+                                                    </div>
                                                 </div>
                                             </div>
+                                          <?php
+                                          $spotCounter++;
+                                          }
+                                          ?>
                                         </div>
-                                      <?php
-                                      $spotCounter++;
-                                      }
-                                      ?>
                                     </div>
                                 </div>
                             </div>
-                            <div class="carousel carousel-slider hide-on-med-and-up">
-                              <?php
-                              $spotCounter = 0;
-                              foreach ($lightTitle as $spots) { ?>
-                                  <div class="carousel-item">
-                                      <div class="row spotlight">
-                                          <div class="cardHeight">
-                                              <div class="card">
-                                                  <div class="card-image">
-                                                      <img class="activator"
-                                                           src="<?php print '/sites/default/files/' . ltrim($lightImage[$spotCounter], 'public://'); ?>">
-                                                  </div>
-                                                  <div class="card-content">
+                            <div class="hide-on-med-and-up">
+                                <div class="carousel carousel-slider">
+                                  <?php
+                                  $spotCounter = 0;
+                                  foreach ($lightTitle as $spots) { ?>
+                                      <div class="carousel-item">
+                                          <div class="row spotlight">
+                                              <div class="cardHeight">
+                                                  <div class="card">
+                                                      <div class="card-image">
+                                                          <img class="activator"
+                                                               src="<?php print '/sites/default/files/' . ltrim($lightImage[$spotCounter], 'public://'); ?>">
+                                                      </div>
+                                                      <div class="card-content">
                                     <span class="card-title activator grey-text text-darken-4"><?php print $spots ?>
                                         <i class="material-icons right">more_vert</i></span>
-                                                  </div>
-                                                  <div class="card-reveal">
+                                                      </div>
+                                                      <div class="card-reveal">
                                     <span class="card-title grey-text text-darken-4"><?php print $lightTitle[$spotCounter] ?>
                                         <i class="material-icons right">close</i></span>
-                                                      <p><?php print $lightBody[$spotCounter] ?></p>
-                                                      <p>
-                                                          <a href="<?php print $lightLink[$spotCounter] ?>">Full
-                                                              Story ></a>
-                                                      </p>
+                                                          <p><?php print $lightBody[$spotCounter] ?></p>
+                                                          <p>
+                                                              <a href="<?php print $lightLink[$spotCounter] ?>">Full
+                                                                  Story ></a>
+                                                          </p>
+                                                      </div>
                                                   </div>
                                               </div>
                                           </div>
                                       </div>
-                                  </div>
-                                <?php
-                                $spotCounter++;
-                              }
-                              ?>
+                                    <?php
+                                    $spotCounter++;
+                                  }
+                                  ?>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -414,7 +419,7 @@
                         <div class="row">
                             <div class="dividerDiagGrey"></div>
                         </div>
-                        <div class="row row-content">
+                        <div class="row" id="hapCar">
                             <div class="carousel carousel-slider hide-on-small-only">
                                 <div class="carousel-item">
                                     <div class="row white-text">
@@ -505,17 +510,17 @@
                             </div>
                             <div class="smicons lineupAction">
                                 <a href="#"><i
-                                            class="fa fa-linkedin fa-2x grey-text valign"></i></a>
+                                            class="fa fa-linkedin grey-text valign"></i></a>
                                 <a href="#"><i
-                                            class="fa fa-flickr fa-2x grey-text valign"></i></a>
+                                            class="fa fa-flickr grey-text valign"></i></a>
                                 <a href="#"><i
-                                            class="fa fa-youtube-play fa-2x grey-text valign"></i></a>
+                                            class="fa fa-youtube-play grey-text valign"></i></a>
                                 <a href="#"> <i
-                                            class="fa fa-instagram fa-2x grey-text valign"></i></a>
+                                            class="fa fa-instagram grey-text valign"></i></a>
                                 <a href="#"> <i
-                                            class="fa fa-twitter fa-2x grey-text valign"></i></a>
+                                            class="fa fa-twitter grey-text valign"></i></a>
                                 <a href="#"> <i
-                                            class="fa fa-facebook fa-2x grey-text valign"></i></a>
+                                            class="fa fa-facebook grey-text valign"></i></a>
                             </div>
                         </div>
                         <div class="dividerDiagGrey"></div>
@@ -635,8 +640,8 @@
                 <div class="container">
                     <div class="row nextStep">
                         <div class="col s12 center-align nextStepPrompt white-text">
-                            <div class="row"><h3 class="white-text">GET
-                                    STARTED</h3>
+                            <div class="row"><h4 class="white-text">GET
+                                    STARTED</h4>
                             </div>
                         </div>
                         <div class="col s12 center-align nextStepButtons">
@@ -651,39 +656,40 @@
                 </div>
             </div>
         </div>
-        <div class="sideNav">
-            <ul id="slide-out-prim" class="side-nav">
-                <div id="closeSideNav" onclick="closeSide()">
-                    <i class="fa fa-times" aria-hidden="true"></i>
-                </div>
-                <div class="mobPrimNav">
-                  <?php
-                  $menub = menu_navigation_links('menu-primary-navigation');
-                  print theme('links__menu-primary-navigation', ['links' => $menub]);
-                  ?>
-                </div>
-                <div class="mobAudNav">
-                  <?php
-                  $menua = menu_navigation_links('menu-audience-identifier');
-                  print theme('links__menu-audience-identifier', ['links' => $menua]); ?>
-                </div>
-            </ul>
-        </div>
-        <div class="footAudNav">
-            <ul id="slide-out-footAud" class="side-nav">
-                <div class="mobAudNav">
-                  <?php
-                  $menua = menu_navigation_links('menu-audience-identifier');
-                  print theme('links__menu-audience-identifier', ['links' => $menua]); ?>
-                </div>
-            </ul>
-        </div>
-      <?php if (!empty($page['content_band'])) { ?>
-          <div class="contentBand">
-            <?php print render($page['content_band']); ?>
-          </div>
-      <?php } ?>
     </div>
+    <div class="sideNav">
+        <ul id="slide-out-prim" class="side-nav">
+            <div id="closeSideNav" onclick="closeSide()">
+                <i class="fa fa-times" aria-hidden="true"></i>
+            </div>
+            <div class="mobPrimNav">
+              <?php
+              $menub = menu_navigation_links('menu-primary-navigation');
+              print theme('links__menu-primary-navigation', ['links' => $menub]);
+              ?>
+            </div>
+            <div class="mobAudNav">
+              <?php
+              $menua = menu_navigation_links('menu-audience-identifier');
+              print theme('links__menu-audience-identifier', ['links' => $menua]); ?>
+            </div>
+        </ul>
+    </div>
+    <div class="footAudNav">
+        <ul id="slide-out-footAud" class="side-nav">
+            <div class="mobAudNav">
+              <?php
+              $menua = menu_navigation_links('menu-audience-identifier');
+              print theme('links__menu-audience-identifier', ['links' => $menua]); ?>
+            </div>
+        </ul>
+    </div>
+  <?php if (!empty($page['content_band'])) { ?>
+      <div class="contentBand">
+        <?php print render($page['content_band']); ?>
+      </div>
+  <?php } ?>
+</div>
 </div>
 <div class="footer">
     <div class="foot gradientRadBlue">
@@ -749,46 +755,43 @@
         </div>
     </div>
     <br><br>
-</div>
-<div id="topPage">
-    <div class="fixed-action-btn">
+    <div class="fixed-action-btn" id="topPage">
         <a class="btn-floating btn-large waves-effect waves-light z-depth-2"
            onclick="topFunction()"><i class="fa fa-chevron-up"
                                       aria-hidden="true"></i></a></div>
-</div>
-<nav class="z-depth-0 audID2 blue" id="navFoot" role="navigation">
-    <div class="nav-wrapper foot hide-on-med-and-down">
-        <div class="row aud_menu foot">
-            <div class="audIDbottom">
-              <?php
-              $menua = menu_navigation_links('menu-audience-identifier');
-              print theme('links', [
-                'links' => $menua,
-                'attributes' => ['class' => 'vertA'],
-              ]); ?>
+    <nav class="z-depth-0 audID2 blue" id="navFoot" role="navigation">
+        <div class="nav-wrapper foot hide-on-med-and-down">
+            <div class="row aud_menu foot">
+                <div class="audIDbottom">
+                  <?php
+                  $menua = menu_navigation_links('menu-audience-identifier');
+                  print theme('links', [
+                    'links' => $menua,
+                    'attributes' => ['class' => 'vertA'],
+                  ]); ?>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="hide-on-large-only mobAudIcon"><a href="#"
-                                                  data-activates="slide-out-footAud"
-                                                  class="button-collapse"><i
-                    class="material-icons large">person</i></a>
-    </div>
-    <div class="hide-on-large-only footButL">
-        <a class="waves-effect waves-light">APPLY NOW</a>
-    </div>
-    <div class="hide-on-large-only footButR">
-        <a class="waves-effect waves-light">REQUEST INFO</a>
-    </div>
-    <div class="searchContainer" id="searchFoot">
-        <form class="searchbox-foot">
-            <input type="search" placeholder="Search ACC" name="search"
-                   class="searchbox-input-foot"
-                   onkeyup="buttonUp();" required>
-            <input type="submit" class="searchbox-submit" value="GO">
-            <span class="searchbox-icon-foot"><i
-                        class="large material-icons">search</i></span>
-        </form>
-    </div>
-</nav>
+        <div class="hide-on-large-only mobAudIcon"><a href="#"
+                                                      data-activates="slide-out-footAud"
+                                                      class="button-collapse"><i
+                        class="material-icons large">person</i></a>
+        </div>
+        <div class="hide-on-large-only footButL">
+            <a class="waves-effect waves-light">APPLY NOW</a>
+        </div>
+        <div class="hide-on-large-only footButR">
+            <a class="waves-effect waves-light">REQUEST INFO</a>
+        </div>
+        <div class="searchContainer" id="searchFoot">
+            <form class="searchbox-foot">
+                <input type="search" placeholder="Search ACC" name="search"
+                       class="searchbox-input-foot"
+                       onkeyup="buttonUp();" required>
+                <input type="submit" class="searchbox-submit" value="GO">
+                <span class="searchbox-icon-foot"><i
+                            class="large material-icons">search</i></span>
+            </form>
+        </div>
+    </nav>
 </div>

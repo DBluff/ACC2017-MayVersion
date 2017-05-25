@@ -12,7 +12,9 @@ function acc2017_preprocess_page(&$variables) {
   if (drupal_is_front_page()) {
     $vidID = db_query("SELECT field_video_id_value FROM field_data_field_video_id where bundle='youtube_video'");
     $videoID = $vidID->fetchCol();
-    $variables['videoID'] = $videoID;
+    foreach ($videoID as $video) {
+      $variables['videoID'] = $video;
+    }
     $heroImg = db_query('SELECT entity_id FROM field_data_field_homepage_hero_image');
     if (!empty($heroImg)) {
       $myHero = $heroImg->fetchCol();

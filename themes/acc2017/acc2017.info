@@ -13,7 +13,13 @@ stylesheets[all][] = sass/style.css
 
 ; SCRIPTS
 ;-------------------------------------------------------------------------------
+scripts[] = js/searchBars.js
+scripts[] = js/stickyNav.js
+scripts[] = js/topPage.js
+scripts[] = js/linkRedirect.js
 scripts[] = js/custom.js
+scripts[] = js/spotlight.js
+scripts[] = js/carouselFix.js
 
 ; REGIONS
 ;-------------------------------------------------------------------------------

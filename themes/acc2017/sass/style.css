@@ -33,7 +33,12 @@
   display: block;
   margin-bottom: 20px; }
 
-/******** Header ***********/
+/*Page*/
+html {
+  overflow-x: hidden;
+  font-family: gotham; }
+
+/*Header*/
 .overlay {
   position: relative; }
 
@@ -84,7 +89,7 @@
 #navPrim {
   position: absolute;
   top: 56px;
-  z-index: 5;
+  z-index: 11;
   background: #1a5276;
   background: -webkit-radial-gradient(center, rgba(26, 82, 118, 0.9), rgba(0, 46, 109, 0.9));
   background: -o-radial-gradient(center, rgba(26, 82, 118, 0.9), rgba(0, 46, 109, 0.9));
@@ -258,12 +263,19 @@ span.searchbox-icon {
 .lineup {
   position: relative; }
 
+.lineupAction {
+  position: absolute;
+  bottom: 15px;
+  right: 0; }
+
 .row.Title {
   position: absolute;
   bottom: 10%;
+  left: 10%;
   display: inline-flex;
   width: 100%;
-  z-index: 2; }
+  z-index: 2;
+  max-width: 100vw; }
 
 .square {
   width: 100%;
@@ -291,10 +303,28 @@ span.searchbox-icon {
   background-color: rgba(91, 44, 111, 0.75);
   min-width: 200px;
   margin-bottom: 24px;
-  white-space: nowrap; }
+  white-space: nowrap;
+  margin-right: 20px; }
+
+.heroNextStep a.btn-flat:hover,
+.footerNextStep a.btn-reverse:hover {
+  font-weight: 400;
+  color: #5b2c62;
+  background-color: whitesmoke;
+  border: none;
+  text-decoration: none; }
+
+.heroNextStep {
+  padding-top: 45px; }
 
 /*Masonry Styling*/
-.mason {
+.row.socialMasonry .col {
+  padding: 0; }
+
+.col.s12.mason,
+.col.m1.mason
+.col.m4.mason
+.col.m6.mason {
   margin: 0;
   padding: 0;
   overflow: hidden;
@@ -369,6 +399,132 @@ span.searchbox-icon {
   position: absolute;
   top: calc(50% - 12px);
   right: calc(50% - 12px); }
+
+/*In the Spotlight*/
+.homeSpotlight {
+  background-image: url(/sites/default/files/homeSpotlight.jpg);
+  background-size: cover;
+  background-position: top center;
+  background-color: #607D8B !important;
+  background-blend-mode: multiply;
+  position: relative; }
+
+.row.Arrows {
+  position: absolute;
+  top: 300px; }
+
+/*Happening at ACC*/
+.eventUnit p.eventTitle {
+  margin-top: 20px;
+  line-height: 1.5rem;
+  font-size: 18px;
+  font-weight: 400;
+  color: #ffffff; }
+
+.eventUnit p.eventDetail {
+  line-height: 1.5rem;
+  color: #ffffff; }
+
+.eventUnit a {
+  font-weight: 400;
+  padding-bottom: 10px; }
+
+.calendarIcon.blue.card.xsCard {
+  border: 2px solid rgba(255, 255, 255, 0.9);
+  text-align: center;
+  border-radius: 3px;
+  max-width: 64px;
+  max-height: 96px;
+  margin: 1.8rem auto; }
+
+.calendarIcon.blue.card.xsCard {
+  min-width: 55px; }
+
+.calendarIcon.blue.card.xsCard .card-content {
+  padding: 0; }
+
+.calendarIcon.blue.card.xsCard .card-content .card-title {
+  margin-bottom: 0; }
+
+/*Stay Connected*/
+.smicons.lineupAction i {
+  margin-left: 1%;
+  padding: 2%;
+  font-size: 30px; }
+
+img.masonImg {
+  max-height: 100%;
+  width: auto; }
+
+.twitterHome {
+  margin: 0 5%; }
+
+.smicons.lineupAction {
+  width: calc(180px + 10%); }
+
+.smIconsAbs {
+  position: absolute;
+  bottom: .25rem;
+  right: .25rem;
+  color: #ffffff;
+  font-size: 2rem; }
+
+/*Footer Settings*/
+.foot.gradientRadBlue {
+  position: relative;
+  top: -1px; }
+
+.foot.gradientRadBlue a {
+  font-size: 15px;
+  font-family: Gotham, FontAwesome;
+  color: #ffffff; }
+
+.foot.gradientRadBlue a:visited {
+  color: #ffffff; }
+
+#navFoot {
+  position: fixed;
+  bottom: 0;
+  z-index: 10;
+  max-width: 100vw; }
+
+.smiconsInv i {
+  margin-left: 1%;
+  transition: all 0.3s ease;
+  padding: 2%; }
+
+.footer .fixed-action-btn {
+  bottom: 66px;
+  right: 66px; }
+
+.footMenu {
+  line-height: 2rem;
+  border-left: dashed 1px rgba(200, 200, 200, 0.5);
+  padding-left: 5%; }
+
+.audIDbottom ul.vertA {
+  padding-left: 56px; }
+
+.container-wide {
+  padding: 2%; }
+
+#topPage {
+  display: none; }
+
+.footerNextStep a.btn-reverse {
+  background-color: rgba(91, 44, 111, 0.25);
+  border: 2px solid #fff;
+  border-radius: 3px;
+  font-size: 1vw;
+  font-weight: 300;
+  letter-spacing: 1px;
+  min-width: 16rem; }
+
+.nextStepPrompt h4 {
+  font-weight: 800;
+  letter-spacing: 2px;
+  font-size: 2.35vw;
+  font-family: Gotham; }
 
 /*Base Rem Sizing*/
 html {
