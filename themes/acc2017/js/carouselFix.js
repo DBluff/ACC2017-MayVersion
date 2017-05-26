@@ -1,4 +1,4 @@
-jQuery(window).resize(function () {
+function carouselFix(){
     var elementHeights = jQuery('.cardHeight').map(function () {
         return jQuery(this).height();
     }).get();
@@ -13,4 +13,10 @@ jQuery(window).resize(function () {
     var heights = minHeight + 'px';
     var targetDivs = jQuery('.carousel', '#hapCar');
     jQuery(targetDivs).css('height', heights);
-}).resize();
+}
+window.onresize = carouselFix();
+jQuery(document).ready(function() {
+    setTimeout(function() {
+        carouselFix();
+    }, 1000);
+});

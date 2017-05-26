@@ -9,6 +9,7 @@ stylesheets[all][] = fonts/font-awesome-4.7.0/css/font-awesome.min.css
 stylesheets[all][] = fonts/gotham/gotham.css
 stylesheets[all][] = css/colors.css
 stylesheets[all][] = sass/style.css
+stylesheets[all][] = css/responsive.css
 
 
 ; SCRIPTS
@@ -19,7 +20,6 @@ scripts[] = js/topPage.js
 scripts[] = js/linkRedirect.js
 scripts[] = js/custom.js
 scripts[] = js/spotlight.js
-scripts[] = js/carouselFix.js
 
 ; REGIONS
 ;-------------------------------------------------------------------------------

@@ -1,6 +1,6 @@
 <div id="page">
     <div class="header overlay">
-        <div id="acc-logo">
+        <div id="acc-logo" class="hide-on-med-and-down">
           <?php if ($logo) { ?>
               <a class="acc-logo" href="<?php print $front_page; ?>"
                  title="<?php print t('Home'); ?>">
@@ -279,8 +279,7 @@
                         </div>
                         <br/>
                         <div class="row" id="spotCar">
-                            <div class="hide-on-small-only">
-<!--                                this is failing? -- why?!?!-->
+                            <div class="hide-on-med-and-down">
                                 <div class="carousel carousel-slider">
                                     <div class="carousel-item">
                                         <div class="row spotlight">
@@ -307,9 +306,7 @@
                                     <span class="card-title grey-text text-darken-4"><?php print $lightTitle[$spotCounter] ?>
                                         <i class="material-icons right">close</i></span>
                                                         <p><?php print $lightBody[$spotCounter] ?></p>
-                                                        <p>
-                                                            <a href="<?php print $lightLink[$spotCounter] ?>">Full
-                                                                Story ></a></p>
+                                                        <p><a href="<?php print $lightLink[$spotCounter] ?>">Full Story ></a></p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -321,7 +318,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="hide-on-med-and-up">
+                            <div class="hide-on-large-only">
                                 <div class="carousel carousel-slider">
                                   <?php
                                   $spotCounter = 0;
@@ -659,7 +656,7 @@
     </div>
     <div class="sideNav">
         <ul id="slide-out-prim" class="side-nav">
-            <div id="closeSideNav" onclick="closeSide()">
+            <div id="closeSideNav">
                 <i class="fa fa-times" aria-hidden="true"></i>
             </div>
             <div class="mobPrimNav">
