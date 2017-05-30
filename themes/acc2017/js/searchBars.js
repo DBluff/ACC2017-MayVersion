@@ -8,36 +8,34 @@ jQuery(document).ready(function () {
     submitIcon.click(function () {
         var moveLeft = jQuery('#navPrim').width() - jQuery('#navAud').width();
         var modifier = jQuery('#navPrim').width() - jQuery('#navAud').width()
-        var newSize = modifier + 144;
+        var newSize = modifier + 100;
         if (isOpen == false) {
             searchBox.addClass('searchbox-open');
             inputBox.focus();
             isOpen = true;
             document.getElementById('searchAdj').style.zIndex = 999;
             document.getElementById('searchAdj').style.width = newSize + pixels;
-            document.getElementById('navAud').style.position = 'absolute';
             document.getElementById('searchAdj').style.right = '0';
             var pos = 0;
             var id = setInterval(frame, 4);
 
             function frame() {
-                if (pos <= negative + moveLeft) {
+                if (pos >= moveLeft) {
                     clearInterval(id);
                 } else {
-                    pos = pos - 10;
-                    if (pos < negative + moveLeft) {
-                        pos = negative + moveLeft;
+                    pos = pos + 10;
+                    if (pos < moveLeft) {
+                        pos = moveLeft;
                     }
-                    document.getElementById('navAud').style.left = pos + 'px';
+                    document.getElementById('navAud').style.right = pos + 'px';
                 }
             }
         } else {
             searchBox.removeClass('searchbox-open');
-            document.getElementById('searchAdj').style.zIndex = 1;
+            document.getElementById('searchAdj').style.zIndex = 6;
             document.getElementById('searchAdj').style.width = '56px';
-            document.getElementById('navAud').style.position = 'inherit';
-            document.getElementById('navAud').style.left = '0px';
             document.getElementById('searchAdj').style.right = '56px';
+            document.getElementById('navAud').style.right = '0px';
             inputBox.focusout();
             isOpen = false;
         }

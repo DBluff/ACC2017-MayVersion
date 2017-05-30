@@ -68,6 +68,52 @@
 <?php print $page_bottom; ?>
 <?php print $scripts; ?>
 </body>
+<?php
+if (drupal_is_front_page()) {
+  $program_search = db_query("SELECT title, nid  FROM node WHERE type='academic_program_area' ORDER BY title ASC");
+  $program_list = $program_search->fetchAll();
+  $programs = [];
+  $programLink = [];
+  if (isset($program_list)) {
+    foreach ($program_list as $program) {
+      if (isset($program->title) && ($program->nid)) {
+        $programs[] = $program->title;
+        $programLink[] = $program->nid;
+      }
+    }
+  }
+  ?>
+    <script>
+        document.getElementById('leftArrow').addEventListener('click', function () {
+            jQuery('.carousel').carousel('prev');
+        }, false);
+        document.getElementById('rightArrow').addEventListener('click', function () {
+            jQuery('.carousel').carousel('next');
+        }, false);
+        jQuery(document).ready(function () {
+            jQuery('input.autocomplete').autocomplete({
+                data: {
+                  <?php foreach ($programs as $searchProg) {
+                  print '"' . $searchProg . '": ' . 'null,';
+                } ?> },
+                limit: 20,
+                onAutocomplete: function (val) {
+                  <?php
+                  $valLoop = 0;
+                  foreach ($programs as $getLink){
+                  $hrefL = '"http://ec2-34-208-27-39.us-west-2.compute.amazonaws.com/' . $programLink[$valLoop] . '"';
+                  ?>
+                    if (val == '<?php print $getLink ?>') {
+                        window.location.href = <?php print $hrefL; ?>
+                    }
+                  <?php
+                  $valLoop++;
+                  } ?>
+                }
+                })
+            })
+    </script>
+<?php } ?>
 <script>
     var tag = document.createElement('script');
     tag.src = "https://www.youtube.com/iframe_api";
@@ -112,12 +158,6 @@
             }
         })
     };
-    document.getElementById('leftArrow').addEventListener('click', function () {
-        jQuery('.carousel').carousel('prev');
-    }, false);
-    document.getElementById('rightArrow').addEventListener('click', function () {
-        jQuery('.carousel').carousel('next');
-    }, false);
     document.getElementById('closeSideNav').addEventListener('click', function () {
         jQuery('.button-collapse').sideNav('hide');
     }, false);
@@ -133,11 +173,11 @@
         }
     }).resize();
     function onYouTubeIframeAPIReady() {
-        <?php if (isset($videoID)){ ?>
+      <?php if (isset($videoID)){ ?>
         var videoID = <?php print_r($videoID)?>
-    <?php } else { ?>
+      <?php } else { ?>
         var videoID = 'IpEHk6KBmEY';
-            <?php } ?>
+      <?php } ?>
         player = new YT.Player('player', {
             height: '100%',
             width: '100%',

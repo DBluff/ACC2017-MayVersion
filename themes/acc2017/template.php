@@ -39,11 +39,8 @@ function acc2017_theme_registry_alter(&$registry) {
   if (isset($available_themes[$theme_key]->info['base theme'])) {
     $base_themes = drupal_find_base_themes($available_themes, $theme_key);
   }
-  // Use acc2017 theme as it provides necessary
-  // functionality for page elements.
   $base_themes += array('acc2017' => 'acc2017');
   $base_themes += array($theme_key => $theme_key);
-
   foreach ($base_themes as $theme_key => $theme_human_name) {
     if (empty($theme_key)) {
       continue;
@@ -51,7 +48,6 @@ function acc2017_theme_registry_alter(&$registry) {
     acc2017_discover_hooks($theme_key, $registry);
   }
 }
-
 
 /**
  * Discovers and registers preprocess, process theme functions.

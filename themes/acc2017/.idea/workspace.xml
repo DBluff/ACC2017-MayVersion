@@ -69,38 +69,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sass/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="56">
-              <caret line="24" column="37" lean-forward="false" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="page--front.tpl.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/page--front.tpl.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1615">
-              <caret line="328" column="66" lean-forward="false" selection-start-line="328" selection-start-column="66" selection-end-line="328" selection-end-column="66" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="delete.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/delete.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-528">
-              <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="materialize.min.css" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/Temp/a97f417c-d2e3-4b94-87bf-b75bcbedcb5a/var/www/html/sites/all/libraries/materialize/css/materialize.min.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="5" column="27591" lean-forward="false" selection-start-line="5" selection-start-column="27583" selection-end-line="5" selection-end-column="27591" />
+            <state relative-caret-position="1376">
+              <caret line="723" column="0" lean-forward="false" selection-start-line="723" selection-start-column="0" selection-end-line="723" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -109,18 +79,18 @@
       <file leaf-file-name="style.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sass/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="635">
-              <caret line="501" column="1" lean-forward="false" selection-start-line="501" selection-start-column="1" selection-end-line="501" selection-end-column="1" />
+            <state relative-caret-position="271">
+              <caret line="522" column="35" lean-forward="true" selection-start-line="522" selection-start-column="35" selection-end-line="522" selection-end-column="35" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="responsive.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/responsive.css">
+      <file leaf-file-name="page--front.tpl.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/page--front.tpl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="788">
-              <caret line="152" column="5" lean-forward="false" selection-start-line="152" selection-start-column="5" selection-end-line="152" selection-end-column="5" />
+            <state relative-caret-position="-21250">
+              <caret line="59" column="44" lean-forward="true" selection-start-line="59" selection-start-column="44" selection-end-line="59" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -138,41 +108,44 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>navaud</find>
-      <find>audidnav</find>
-      <find>btn</find>
-      <find>offset</find>
-      <find>hoverable</find>
-      <find>Title</find>
-      <find>modal</find>
-      <find>hide-on-small</find>
-      <find>navfoot</find>
-      <find>und</find>
-      <find>[und]</find>
-      <find>hide-on-small-only</find>
-      <find>mobile</find>
-      <find>accordi</find>
-      <find>title</find>
-      <find>SACSCOC Accreditation and Compliance</find>
-      <find>c</find>
-      <find>close</find>
-      <find>closeS</find>
-      <find>closeSid</find>
-      <find>closeSide(</find>
-      <find>closeSide()</find>
-      <find>navAud</find>
-      <find>mason</find>
-      <find>onload</find>
       <find>closeSide</find>
       <find>hide-on-</find>
       <find>hide-on-med</find>
       <find>activator</find>
+      <find>searchAdj</find>
+      <find>searchbox</find>
+      <find>submit</find>
+      <find>searchbox-icon</find>
+      <find>searchbox-icon-foot</find>
+      <find>navAud</find>
+      <find>AoSoverlay</find>
+      <find>footmenu</find>
+      <find>twitter</find>
+      <find>arrow</find>
       <find>spotlight</find>
+      <find>margin-bottom: 0</find>
+      <find>padding-bottom: 0</find>
+      <find>col m3</find>
+      <find>noSidePad</find>
+      <find>input.searchbox-inp</find>
+      <find>alignment</find>
+      <find>and</find>
+      <find>halfSidePad</find>
+      <find>half</find>
+      <find>title</find>
+      <find>input-foot</find>
+      <find>margin-left: 5%</find>
+      <find>purshade</find>
+      <find>carousel</find>
+      <find>alignsearc</find>
     </findStrings>
     <replaceStrings>
       <replace>acc2017</replace>
       <replace>$variables[</replace>
       <replace>navAud</replace>
+      <replace>col m3 noSidePad</replace>
+      <replace>halfSidePad</replace>
+      <replace>halfPad</replace>
     </replaceStrings>
     <dirStrings>
       <dir>C:\wamp\www\sites\all\themes\acc2017</dir>
@@ -206,26 +179,27 @@
         <option value="$PROJECT_DIR$/../../../dump/bigdump.php" />
         <option value="$PROJECT_DIR$/js/linkRedirect.js" />
         <option value="$PROJECT_DIR$/js/stickyNav.js" />
-        <option value="$PROJECT_DIR$/template.php" />
         <option value="$PROJECT_DIR$/preprocess/html.preprocess.inc" />
         <option value="$PROJECT_DIR$/js/spotlight.js" />
         <option value="$USER_HOME$/AppData/Local/Temp/a97f417c-d2e3-4b94-87bf-b75bcbedcb5a/var/www/html/sites/all/libraries/materialize/js/materialize.min.js" />
         <option value="$USER_HOME$/AppData/Local/Temp/a97f417c-d2e3-4b94-87bf-b75bcbedcb5a/var/www/html/sites/all/libraries/materialize/js/materialize.js" />
-        <option value="$PROJECT_DIR$/js/searchBars.js" />
-        <option value="$PROJECT_DIR$/templates/html.tpl.php" />
         <option value="&lt;a39ce0c3-0245-4c29-9b0d-55584c365cfa&gt;/home/d1814618/livethemes/subtheme01/js/dynamicChart.js" />
         <option value="&lt;a39ce0c3-0245-4c29-9b0d-55584c365cfa&gt;/home/d1814618/livethemes/subtheme01/preprocess/preprocess-html.inc" />
         <option value="$USER_HOME$/Downloads/preprocess-html.inc" />
         <option value="$USER_HOME$/AppData/Local/Temp/555ac8a9-5b59-4517-8fed-e9dc8e277af0/var/www/html/sites/all/themes/acc2017/template.php" />
-        <option value="$PROJECT_DIR$/css/responsive.css" />
         <option value="$PROJECT_DIR$/acc2017.info" />
-        <option value="$PROJECT_DIR$/preprocess/page.preprocess.inc" />
         <option value="$PROJECT_DIR$/js/carouselFix.js" />
         <option value="$PROJECT_DIR$/js/custom.js" />
         <option value="$USER_HOME$/AppData/Local/Temp/a97f417c-d2e3-4b94-87bf-b75bcbedcb5a/var/www/html/sites/all/libraries/materialize/css/materialize.min.css" />
         <option value="$PROJECT_DIR$/delete.php" />
+        <option value="$PROJECT_DIR$/js/searchBars.js" />
+        <option value="$PROJECT_DIR$/css/responsive.css" />
+        <option value="$PROJECT_DIR$/templates/page--promotional_page.tpl.php" />
         <option value="$PROJECT_DIR$/sass/style.scss" />
+        <option value="$PROJECT_DIR$/template.php" />
+        <option value="$PROJECT_DIR$/preprocess/page.preprocess.inc" />
         <option value="$PROJECT_DIR$/templates/page--front.tpl.php" />
+        <option value="$PROJECT_DIR$/templates/html.tpl.php" />
       </list>
     </option>
   </component>
@@ -257,6 +231,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -359,8 +335,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -499,27 +473,27 @@
       <workItem from="1495633096617" duration="2928000" />
       <workItem from="1495640045334" duration="26656000" />
       <workItem from="1495741028968" duration="27797000" />
+      <workItem from="1496152299344" duration="25852000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99051000" />
+    <option name="totallyTimeSpent" value="124903000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1272" y="-8" width="1296" height="1040" extended-state="0" />
     <editor active="true" />
     <layout>
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928804" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26618123" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928804" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296582" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296582" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928804" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26618123" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928804" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39911798" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -527,6 +501,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -543,13 +518,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/inc/utils.inc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="12" column="37" lean-forward="false" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/inc/pager.inc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="392">
@@ -705,14 +673,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="676">
-          <caret line="119" column="124" lean-forward="false" selection-start-line="119" selection-start-column="124" selection-end-line="119" selection-end-column="124" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/template.orig.php" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/a97f417c-d2e3-4b94-87bf-b75bcbedcb5a/var/www/html/sites/all/themes/acc2017/preprocess/html.preprocess.inc">
       <provider selected="true" editor-type-id="text-editor">
@@ -733,17 +693,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="64" lean-forward="false" selection-start-line="0" selection-start-column="64" selection-end-line="0" selection-end-column="64" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/a97f417c-d2e3-4b94-87bf-b75bcbedcb5a/var/www/html/sites/all/libraries/materialize/js/materialize.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="465" column="170" lean-forward="false" selection-start-line="465" selection-start-column="164" selection-end-line="465" selection-end-column="170" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/a97f417c-d2e3-4b94-87bf-b75bcbedcb5a/var/www/html/sites/all/libraries/materialize/js/materialize.js" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/d32ef4e0-adbd-414a-8521-b9123019b95a/var/www/html/sites/all/themes/acc2017/templates/html--front.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
@@ -751,19 +704,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/searchBars.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="9" column="15" lean-forward="false" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Temp/d32ef4e0-adbd-414a-8521-b9123019b95a/var/www/html/sites/all/libraries/materialize/css/materialize.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
           <caret line="197" column="5508" lean-forward="false" selection-start-line="197" selection-start-column="5398" selection-end-line="197" selection-end-column="5508" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -771,9 +715,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-514">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1488485800000" expanded="true" signature="2196:2203" ph="»" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -781,39 +722,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1764">
           <caret line="74" column="6" lean-forward="true" selection-start-line="64" selection-start-column="0" selection-end-line="74" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/555ac8a9-5b59-4517-8fed-e9dc8e277af0/var/www/html/sites/all/themes/preprocess/preprocess-html.inc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/555ac8a9-5b59-4517-8fed-e9dc8e277af0/var/www/html/sites/all/themes/acc2017/template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="7" column="157" lean-forward="false" selection-start-line="7" selection-start-column="157" selection-end-line="7" selection-end-column="157" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="24" column="37" lean-forward="false" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/555ac8a9-5b59-4517-8fed-e9dc8e277af0/var/www/html/sites/all/themes/preprocess/preprocess-html.inc" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/555ac8a9-5b59-4517-8fed-e9dc8e277af0/var/www/html/sites/all/themes/acc2017/template.php" />
     <entry file="file://$USER_HOME$/Downloads/preprocess-html.inc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="822">
           <caret line="72" column="38" lean-forward="true" selection-start-line="72" selection-start-column="38" selection-end-line="72" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -821,7 +738,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2268">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -829,7 +745,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -837,7 +752,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -845,7 +759,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="588">
           <caret line="21" column="27" lean-forward="false" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -853,38 +766,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="588">
           <caret line="21" column="3" lean-forward="true" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/preprocess/page.preprocess.inc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="74" column="58" lean-forward="false" selection-start-line="74" selection-start-column="58" selection-end-line="74" selection-end-column="58" />
-          <folding>
-            <marker date="1495824491349" expanded="true" signature="208:295" ph="SELECT field... field_data_field_video_id" />
-            <marker date="1495824491349" expanded="true" signature="438:496" ph="SELECT entit... field_data_field_homepage_hero_image" />
-            <marker date="1495824491349" expanded="true" signature="783:830" ph="SELECT name taxonomy_term_data" />
-            <marker date="1495824491349" expanded="true" signature="981:1031" ph="SELECT sid, soc_media" />
-            <marker date="1495824491349" expanded="true" signature="1359:1416" ph="SELECT nid, node" />
-            <marker date="1495824491349" expanded="true" signature="2212:2269" ph="SELECT nid, node" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/responsive.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="788">
-          <caret line="152" column="5" lean-forward="false" selection-start-line="152" selection-start-column="5" selection-end-line="152" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/html.tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="86" column="33" lean-forward="true" selection-start-line="86" selection-start-column="4" selection-end-line="86" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -892,22 +773,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="653">
           <caret line="25" column="11" lean-forward="false" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Temp/a97f417c-d2e3-4b94-87bf-b75bcbedcb5a/var/www/html/sites/all/libraries/materialize/css/materialize.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
+        <state relative-caret-position="140">
           <caret line="5" column="27591" lean-forward="false" selection-start-line="5" selection-start-column="27583" selection-end-line="5" selection-end-column="27591" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/delete.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-528">
-          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -916,22 +788,100 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="282">
           <caret line="3239" column="52" lean-forward="false" selection-start-line="3239" selection-start-column="43" selection-end-line="3239" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/delete.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/searchBars.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="2" column="46" lean-forward="true" selection-start-line="2" selection-start-column="46" selection-end-line="2" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/responsive.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4064">
+          <caret line="208" column="1" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="208" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/page--promotional_page.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="67" column="27" lean-forward="true" selection-start-line="67" selection-start-column="27" selection-end-line="67" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1376">
+          <caret line="723" column="0" lean-forward="false" selection-start-line="723" selection-start-column="0" selection-end-line="723" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sass/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="635">
-          <caret line="501" column="1" lean-forward="false" selection-start-line="501" selection-start-column="1" selection-end-line="501" selection-end-column="1" />
+        <state relative-caret-position="271">
+          <caret line="522" column="35" lean-forward="true" selection-start-line="522" selection-start-column="35" selection-end-line="522" selection-end-column="35" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="50" column="0" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/preprocess/page.preprocess.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="11" column="31" lean-forward="false" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+          <folding>
+            <marker date="1496178873046" expanded="true" signature="208:295" ph="SELECT field... field_data_field_video_id" />
+            <marker date="1496178873046" expanded="true" signature="438:496" ph="SELECT entit... field_data_field_homepage_hero_image" />
+            <marker date="1496178873046" expanded="true" signature="783:830" ph="SELECT name taxonomy_term_data" />
+            <marker date="1496178873046" expanded="true" signature="981:1031" ph="SELECT sid, soc_media" />
+            <marker date="1496178873046" expanded="true" signature="1359:1416" ph="SELECT nid, node" />
+            <marker date="1496178873046" expanded="true" signature="2212:2269" ph="SELECT nid, node" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/html.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="112" column="18" lean-forward="true" selection-start-line="112" selection-start-column="18" selection-end-line="112" selection-end-column="18" />
+          <folding>
+            <marker date="1496182857756" expanded="true" signature="2835:2917" ph="SELECT title... node" />
+            <marker date="1496182857756" expanded="true" signature="3247:3280" ph="..." />
+            <marker date="1496182857756" expanded="true" signature="3332:3393" ph="{...}" />
+            <marker date="1496182857756" expanded="true" signature="3487:3548" ph="{...}" />
+            <marker date="1496182857756" expanded="true" signature="3601:3769" ph="{...}" />
+            <marker date="1496182857756" expanded="true" signature="3657:3741" ph="{...}" />
+            <marker date="1496182857756" expanded="true" signature="3742:3769" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/page--front.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1615">
-          <caret line="328" column="66" lean-forward="false" selection-start-line="328" selection-start-column="66" selection-end-line="328" selection-end-column="66" />
+        <state relative-caret-position="-21250">
+          <caret line="59" column="44" lean-forward="true" selection-start-line="59" selection-start-column="44" selection-end-line="59" selection-end-column="44" />
           <folding />
         </state>
       </provider>
