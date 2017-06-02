@@ -414,6 +414,17 @@ input.searchbox-input {
 .square:after {
   content: "";
   display: block;
+  padding-bottom: 85%;
+}
+
+.squareThree {
+  width: 100%;
+  background-size: contain;
+}
+
+.squareThree:after {
+  content: "";
+  display: block;
   padding-bottom: 100%;
 }
 
@@ -842,7 +853,7 @@ img.imgTestimonial {
 }
 
 .CLTestimonial {
-  margin-top: 200px;
+  margin-top: 250px;
 }
 
 /*Arts & Culture*/
@@ -861,6 +872,43 @@ img.imgTestimonial {
   --heightA: calc(17.5vw - .75rem);
   --heightB: calc(var(--heightA) * .75);
   height: var(--heightB);
+}
+
+/*Learning Support*/
+.LSAdvisors {
+  background-image: url(/sites/default/files/LSAdvisors.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-color: #607d8b !important;
+  background-blend-mode: multiply;
+}
+
+.LSVeterans {
+  background-image: url(/sites/default/files/LSVeterans.jpg);
+  background-size: cover;
+  background-position: top left;
+  background-color: #37474f !important;
+  background-blend-mode: multiply;
+}
+
+/*Campuses*/
+.cOverlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  width: calc(100%);
+  height: calc(40%);
+  transition: 0.5s ease;
+  z-index: 5;
+}
+
+.sqThree:hover .cOverlay {
+  height: calc(100%);
+}
+
+.squareThree {
+  max-height: 100%;
 }
 
 /*Base Rem Sizing*/

@@ -17,18 +17,13 @@ stylesheets[all][] = css/responsive.css
 scripts[] = js/searchBars.js
 scripts[] = js/stickyNav.js
 scripts[] = js/topPage.js
-scripts[] = js/linkRedirect.js
+;scripts[] = js/linkRedirect.js
 scripts[] = js/custom.js
 scripts[] = js/spotlight.js
 
 ; REGIONS
 ;-------------------------------------------------------------------------------
-regions[header] = Header
-regions[user_nav] = User navigation
-regions[highlight] = Highlighted
 regions[help] = Help
 regions[content] = Content
-regions[sidebar_first] = Sidebar first
-regions[sidebar_second] = Sidebar second
-regions[footer] = Footer
+regions[content_band] = Content Band
 

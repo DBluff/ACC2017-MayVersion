@@ -340,6 +340,15 @@ input.searchbox-input {
 .square:after {
   content: "";
   display: block;
+  padding-bottom: 85%; }
+
+.squareThree {
+  width: 100%;
+  background-size: contain; }
+
+.squareThree:after {
+  content: "";
+  display: block;
   padding-bottom: 100%; }
 
 .rectangle:after {
@@ -480,9 +489,6 @@ input.searchbox-input {
 #rightArrow {
   position: absolute;
   right: 1vw; }
-
-#rightArrow:hover {
-  background-color: red; }
 
 /*Happening at ACC*/
 .eventUnit p.eventTitle {
@@ -699,7 +705,7 @@ img.imgTestimonial {
   padding-top: 200px; }
 
 .CLTestimonial {
-  margin-top: 200px; }
+  margin-top: 250px; }
 
 /*Arts & Culture*/
 .gallery img.responsive-img {
@@ -715,6 +721,49 @@ img.imgTestimonial {
   --heightA: calc(17.5vw - .75rem);
   --heightB: calc(var(--heightA) * .75);
   height: var(--heightB); }
+
+/*Learning Support*/
+.LSAdvisors {
+  background-image: url(/sites/default/files/LSAdvisors.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-color: #607d8b !important;
+  background-blend-mode: multiply; }
+
+.LSVeterans {
+  background-image: url(/sites/default/files/LSVeterans.jpg);
+  background-size: cover;
+  background-position: top left;
+  background-color: #37474f !important;
+  background-blend-mode: multiply; }
+
+/*Campuses*/
+.cOverlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  width: calc(100%);
+  height: calc(40%);
+  transition: 0.5s ease;
+  z-index: 5; }
+
+.col.m4.s6.sqThree:hover .cOverlay {
+  height: calc(100%); }
+
+.squareThree {
+  max-height: 100%; }
+
+/*Admissions*/
+.proTipWrapper {
+  margin-top: 3rem; }
+
+.proTipWrapper .card-panel {
+  background-image: url(/sites/default/files/geometry.png);
+  border: 3px solid rgba(0, 150, 136, 0.7); }
+
+.stepTab {
+  padding: 5% !important; }
 
 /*Base Rem Sizing*/
 html {

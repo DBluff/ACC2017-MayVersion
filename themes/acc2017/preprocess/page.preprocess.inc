@@ -65,11 +65,13 @@ function acc2017_preprocess_page(&$variables) {
       });
       $lightCount = 0;
       foreach ($lightnodes as $lightScrape) {
-        $variables['lightTitle'][$lightCount] = $lightScrape->title;
-        $variables['lightBody'][$lightCount] = $lightScrape->body[LANGUAGE_NONE][0]['value'];
-        $variables['lightLink'][$lightCount] = $lightScrape->field_spotlight_link[LANGUAGE_NONE][0]['value'];
-        $variables['lightImage'][$lightCount] = ($lightScrape->field_spotlight_image[LANGUAGE_NONE][0]['uri']);
-        $lightCount++;
+        if ($lightScrape->field_appears_on_pages[LANGUAGE_NONE][0]['tid'] === '22') {
+          $variables['lightTitle'][$lightCount] = $lightScrape->title;
+          $variables['lightBody'][$lightCount] = $lightScrape->body[LANGUAGE_NONE][0]['value'];
+          $variables['lightLink'][$lightCount] = $lightScrape->field_spotlight_link[LANGUAGE_NONE][0]['value'];
+          $variables['lightImage'][$lightCount] = ($lightScrape->field_spotlight_image[LANGUAGE_NONE][0]['uri']);
+          $lightCount++;
+        }
       }
     }
     drupal_add_js(drupal_get_path('theme', 'acc2017') . '/js/carouselFix.js');

@@ -12,7 +12,7 @@
         max-width: 75.4rem;
     }
 
-    .valign.AoSinitialsHome h5 {
+    .valign.AoSinitialsHome h5.aos-card.white-text {
         font-size: 1.4rem;
         line-height: 100%;
     }
@@ -50,8 +50,8 @@
         max-width: 66.5rem;
     }
 
-    .valign.AoSinitialsHome h5 {
-        font-size: 1.4rem;
+    .valign.AoSinitialsHome h5.aos-card.white-text {
+        font-size: 1.1rem;
         line-height: 100%;
     }
 }
@@ -119,8 +119,8 @@
         max-width: 45rem;
     }
 
-    .valign.AoSinitialsHome h5 {
-        font-size: 1.2rem;
+    .valign.AoSinitialsHome h5.aos-card.white-text {
+        font-size: 1.1rem;
         line-height: 100%;
     }
 }
@@ -192,7 +192,7 @@
         max-width: 45rem;
     }
 
-    .valign.AoSinitialsHome h5 {
+    .valign.AoSinitialsHome h5.aos-card.white-text {
         font-size: 1rem;
         line-height: 100%;
     }

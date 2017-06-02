@@ -1443,14 +1443,18 @@
     background: radial-gradient(ellipse at center, #5b2c6f, #3d1e4a) !important;
 }
 
+.gradientRadPurple-o {
+    background: rgba(91,44,111,.5) !important;
+    background: -webkit-radial-gradient(center, rgba(91,44,111,.5), rgba(61,30,74,.5)) !important;
+    background: -o-radial-gradient(center, rgba(91,44,111,.5), rgba(61,30,74,.5)) !important;
+    background: -moz-radial-gradient(center, rgba(91,44,111,.5), rgba(61,30,74,.5)) !important;
+    background: radial-gradient(ellipse at center, rgba(91,44,111,.5), rgba(61,30,74,.5)) !important;
+}
+
 .blueT {
     background: #1a5276;
-
     background: -webkit-radial-gradient(center, rgba(26, 82, 118, 0.9), rgba(0, 46, 109, 0.9)) !important;
-
     background: -o-radial-gradient(center, rgba(26, 82, 118, 0.9), rgba(0, 46, 109, 0.9)) !important;
-
     background: -moz-radial-gradient(center, rgba(26, 82, 118, 0.9), rgba(0, 46, 109, 0.9)) !important;
-
     background: radial-gradient(ellipse at center, rgba(26, 82, 118, 0.9), rgba(0, 46, 109, 0.9)) !important;
 }

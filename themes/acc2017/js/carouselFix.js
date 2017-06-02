@@ -17,6 +17,7 @@ function carouselFix(){
 window.onresize = carouselFix();
 jQuery(document).ready(function() {
     setTimeout(function() {
+        jQuery('.carousel.carousel-slider').carousel({fullWidth: true});
         carouselFix();
     }, 1000);
 });
