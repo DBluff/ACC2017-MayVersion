@@ -185,7 +185,7 @@
                                               <div class="AoSoverlay valign-wrapper hide-on-small-only"
                                                    style="background-color: rgba(<?php print $AoSback[0] ?>,<?php print $AoSback[1] ?>,<?php print $AoSback[2] ?>,0.7)">
                                                   <div class="valign AoSinitialsHome">
-                                                      <h5 class="aos-card white-text"><?php print $AoSHead[0][0]; ?></h5>
+                                                      <h6 class="aos-card white-text"><?php print $AoSHead[0][0]; ?></h6>
                                                   </div>
                                               </div>
                                           </div>
@@ -202,7 +202,7 @@
                                               <div class="AoSoverlay valign-wrapper hide-on-small-only"
                                                    style="background-color: rgba(<?php print $AoSback[0] ?>,<?php print $AoSback[1] ?>,<?php print $AoSback[2] ?>,0.7)">
                                                   <div class="valign AoSinitialsHome">
-                                                      <h5 class="aos-card white-text"><?php print $AoSHead[0][0]; ?></h5>
+                                                      <h6 class="aos-card white-text"><?php print $AoSHead[0][0]; ?></h6>
                                                   </div>
                                               </div>
                                           </div>
@@ -220,7 +220,7 @@
                                               <div class="AoSoverlay valign-wrapper hide-on-small-only"
                                                    style="background-color: rgba(<?php print $AoSback[0] ?>,<?php print $AoSback[1] ?>,<?php print $AoSback[2] ?>,0.7)">
                                                   <div class="valign AoSinitialsHome">
-                                                      <h5 class="aos-card white-text"><?php print $AoSHead[0][0]; ?></h5>
+                                                      <h6 class="aos-card white-text"><?php print $AoSHead[0][0]; ?></h6>
                                                   </div>
                                               </div>
                                           </div>
@@ -259,8 +259,7 @@
                                 <div class="col s12">
                                     <h2 class="band-title white-text">in the
                                         spotlight</h2>
-                                    <a href="#"><span
-                                                class="valign right grey-text text-lighten-2 lineupAction">Visit the ACC Newsroom ></span></a>
+                                    <a href="#" class="valign right grey-text text-lighten-2 lineupAction">Visit the ACC Newsroom ></a>
                                 </div>
                             </div>
                             <div class="row">
@@ -400,9 +399,8 @@
                                 <div class="col s12">
                                     <h2 class="band-title white-text">Happening
                                         at ACC</h2>
-                                    <a href="#"><span
-                                                class="valign right grey-text text-lighten-2 lineupAction">View all
-                                            calendars ></span>
+                                    <a href="#" class="valign right grey-text text-lighten-2 lineupAction">View all
+                                            calendars >
                                     </a>
                                 </div>
                             </div>

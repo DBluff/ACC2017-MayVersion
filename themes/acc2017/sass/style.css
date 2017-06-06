@@ -42,7 +42,8 @@ html {
 .overlay {
   position: relative; }
 
-#navPrim ul li:hover {
+#navPrim ul li:hover,
+#navPrim ul li.active-trail.active {
   background-color: rgba(0, 0, 0, 0.1) !important;
   top: 0.5rem;
   height: 80px;
@@ -149,7 +150,7 @@ h1 {
   letter-spacing: 0.1rem; }
 
 h2 {
-  Color: #000000;
+  Color: #333333 !important;
   Font-family: 'Gotham Condensed Book';
   font-weight: 400;
   margin: 0;
@@ -193,22 +194,19 @@ h6 {
 p {
   Color: #424242;
   Font-family: Gotham;
-  font-size: 1rem;
-  font-weight: 300;
-  line-height: 2rem; }
+  font-weight: 300; }
 
 .flow-text {
   Color: #424242;
   Font-family: Gotham;
-  font-weight: 300;
-  line-height: 2rem; }
+  font-weight: 300; }
 
 a {
   Color: #5B2C6F;
   Font-family: Gotham;
   font-size: 1.266rem;
   font-weight: 300;
-  letter-spacing: 1px;
+  letter-spacing: .5px;
   text-decoration: none; }
 
 a:hover {
@@ -340,7 +338,7 @@ input.searchbox-input {
 .square:after {
   content: "";
   display: block;
-  padding-bottom: 85%; }
+  padding-bottom: 100%; }
 
 .squareThree {
   width: 100%;
@@ -489,6 +487,9 @@ input.searchbox-input {
 #rightArrow {
   position: absolute;
   right: 1vw; }
+
+#rightArrow:hover {
+  background-color: red; }
 
 /*Happening at ACC*/
 .eventUnit p.eventTitle {
@@ -744,29 +745,30 @@ img.imgTestimonial {
   left: 0;
   overflow: hidden;
   width: calc(100%);
-  height: calc(40%);
+  height: calc(30% - 2vw);
   transition: 0.5s ease;
   z-index: 5; }
 
-.col.m4.s6.sqThree:hover .cOverlay {
+.sqThree:hover .cOverlay {
   height: calc(100%); }
 
 .squareThree {
   max-height: 100%; }
 
-/*Admissions*/
-.proTipWrapper {
-  margin-top: 3rem; }
+/*Call To Actions*/
+.cTA .btn-large {
+  background-color: rgba(91, 44, 111, 0.8); }
 
-.proTipWrapper .card-panel {
-  background-image: url(/sites/default/files/geometry.png);
-  border: 3px solid rgba(0, 150, 136, 0.7); }
-
-.stepTab {
-  padding: 5% !important; }
+.cTA .btn-large:hover {
+  color: rgba(91, 44, 111, 0.8);
+  background-color: #ffffff; }
 
 /*Base Rem Sizing*/
 html {
-  font-size: 15px; }
+  font-size: 16px; }
+
+/*Delete at Move*/
+#toolbar div.toolbar-menu {
+  background-color: hotpink !important; }
 
 /*# sourceMappingURL=style.css.map */

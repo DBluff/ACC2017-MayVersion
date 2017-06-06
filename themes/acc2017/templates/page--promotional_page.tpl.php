@@ -73,11 +73,7 @@
                             $titleCount = count($titleBreakdown);
                             $partCount = 0;
                             foreach ($titleBreakdown as $tb) {
-                              $partCount++;
                               print '<h1 class="title" id="page-title">' . $tb . '</h1>';
-                              if ($partCount < $titleCount) {
-                                print '<br />';
-                              }
                             }
                           }
                           print render($title_suffix); ?>
@@ -86,9 +82,9 @@
                 </div>
                 <div class="container">
                     <div class="row right cTA noBottomMargin noBottomPadding">
-                        <a class="waves-effect waves-light btn-large purple">APPLY
+                        <a class="waves-effect waves-light btn-large">APPLY
                             NOW</a>
-                        <a class="waves-effect waves-light btn-large purple">REQUEST
+                        <a class="waves-effect waves-light btn-large">REQUEST
                             INFO</a>
                     </div>
                 </div>

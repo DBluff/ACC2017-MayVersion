@@ -65,7 +65,8 @@ html {
   position: relative;
 }
 
-#navPrim ul li:hover {
+#navPrim ul li:hover,
+#navPrim ul li.active-trail.active{
   background-color: rgba(0, 0, 0, 0.1) !important;
   top: 0.5rem;
   height: 80px;
@@ -192,7 +193,7 @@ h1 {
 }
 
 h2 {
-  Color: #000000;
+  Color: #333333!important;
   Font-family: 'Gotham Condensed Book';
   font-weight: 400;
   margin: 0;
@@ -241,16 +242,13 @@ h6 {
 p {
   Color: #424242;
   Font-family: Gotham;
-  font-size: 1rem;
   font-weight: 300;
-  line-height: 2rem;
 }
 
 .flow-text {
   Color: #424242;
   Font-family: Gotham;
   font-weight: 300;
-  line-height: 2rem;
 }
 
 a {
@@ -258,7 +256,7 @@ a {
   Font-family: Gotham;
   font-size: 1.266rem;
   font-weight: 300;
-  letter-spacing: 1px;
+  letter-spacing: .5px;
   text-decoration: none;
 }
 
@@ -414,7 +412,7 @@ input.searchbox-input {
 .square:after {
   content: "";
   display: block;
-  padding-bottom: 85%;
+  padding-bottom: 100%;
 }
 
 .squareThree {
@@ -898,7 +896,7 @@ img.imgTestimonial {
   left: 0;
   overflow: hidden;
   width: calc(100%);
-  height: calc(40%);
+  height: calc(30% - 2vw);
   transition: 0.5s ease;
   z-index: 5;
 }
@@ -911,7 +909,21 @@ img.imgTestimonial {
   max-height: 100%;
 }
 
+/*Call To Actions*/
+.cTA .btn-large {
+  background-color: rgba(91, 44, 111, .8);
+}
+
+.cTA .btn-large:hover {
+  color: rgba(91, 44, 111, .8);
+  background-color: #ffffff;
+}
+
 /*Base Rem Sizing*/
 html {
-  font-size: 15px;
+  font-size: 16px;
 }
+
+/*Delete at Move*/
+#toolbar div.toolbar-menu {
+  background-color: hotpink !important; }
