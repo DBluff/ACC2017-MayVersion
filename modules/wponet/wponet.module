@@ -1,0 +1,19 @@
+<?php
+function wponet_cron()
+{
+  $res = db_query("SELECT node_id, title, onet FROM onet_codes WHERE node_id <> 0 ORDER BY node_id ASC;");
+  $rec = $res->fetchAll();
+  foreach ($rec as $r) {
+    $lkup = db_query("SELECT title FROM node WHERE nid = $r->node_id;");
+    $lkupF = $lkup->fetchField();
+    db_merge('wponet')
+      ->key(['onet' => $r->onet])
+      ->fields([
+        'nid' => $r->node_id,
+        'program' => $lkupF,
+        'onet' => $r->onet,
+        'title' => $r->title,
+      ])
+      ->execute();
+  }
+}

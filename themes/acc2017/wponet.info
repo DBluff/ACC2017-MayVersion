@@ -1,0 +1,4 @@
+name = ACC WordPress Onet Direction Module
+description = This module hooks into cron and updates the wordpress target database table with program/career display decisions made by career services.
+core = 7.x
+package = ACC Custom Modules

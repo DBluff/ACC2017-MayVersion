@@ -93,6 +93,11 @@
                     <?php print render($page['content_band']); ?>
                   </div>
               <?php } ?>
+              <?php if (!empty($page['content'])) { ?>
+                  <div class="content">
+                    <?php print render($page['content']); ?>
+                  </div>
+              <?php } ?>
             <div class="row footerNextStep gradientRadPurple">
                 <div class="section">
                     <div class="container">

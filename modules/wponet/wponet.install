@@ -1,0 +1,37 @@
+<?php
+function wponet_schema() {
+  $schema['wponet'] = array(
+    'description' => 'Table that keeps track of onet assignment.',
+    'fields' => array(
+      'onet' => array(
+        'description' => 'The onet code for each career.',
+        'type' => 'varchar',
+        'length' => 256,
+        'not null' => TRUE,
+        'default' => '',
+      ),
+      'program' => array(
+        'description' => 'The program grouping.',
+        'type' => 'varchar',
+        'length' => 256,
+        'not null' => TRUE,
+        'default' => '',
+      ),
+      'nid' => array(
+        'description' => 'The node id - used to get program title.',
+        'type' => 'int',
+        'unsigned' => TRUE,
+        'not null' => TRUE,
+      ),
+      'title' => array(
+        'description' => 'Title of each career.',
+        'type' => 'varchar',
+        'length' => 255,
+        'not null' => TRUE,
+        'default' => '',
+      ),
+    ),
+    'primary key' => array('onet'),
+  );
+  return $schema;
+}
