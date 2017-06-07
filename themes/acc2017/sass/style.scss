@@ -59,6 +59,9 @@ html {
   overflow-x: hidden;
   font-family: gotham;
 }
+*:focus {
+  outline: none;
+}
 
 /*Header*/
 .overlay {
@@ -430,6 +433,19 @@ input.searchbox-input {
   padding-bottom: 100%;
 }
 
+.squareFour {
+  width: 100%;
+  background-size: contain;
+  position: relative;
+  background-position: center;
+}
+
+.squareFour:after {
+  content: "";
+  display: block;
+  padding-bottom: 75%;
+}
+
 .rectangle:after {
   padding-bottom: 44%;
   display: block;
@@ -576,7 +592,7 @@ input.searchbox-input {
 
 .row.Arrows {
   position: absolute;
-  top: calc(50% - 5rem);
+  top: calc(50% - 1rem);
   padding-bottom: 0!important;
 }
 
@@ -599,6 +615,12 @@ input.searchbox-input {
 }
 
 /*Happening at ACC*/
+.eventUnit {
+  padding: 2%;
+  border-left: 1px dashed rgba(255, 255, 255, 0.4);
+  cursor: pointer;
+}
+
 .eventUnit p.eventTitle {
   margin-top: 20px;
   line-height: 1.5rem;
@@ -623,6 +645,7 @@ input.searchbox-input {
   max-width: 64px;
   max-height: 96px;
   margin: 1.8rem auto;
+  padding: 0;
 }
 
 .calendarIcon.blue.card.xsCard {
@@ -867,22 +890,7 @@ img.imgTestimonial {
 }
 
 /*Arts & Culture*/
-.gallery img.responsive-img {
-  position: relative;
-  top:0;
-}
 
-.gallery img.responsive-img:hover {
-  transform: scale(1.16);
-}
-
-.noOverflow {
-  overflow: hidden;
-  position: relative;
-  --heightA: calc(17.5vw - .75rem);
-  --heightB: calc(var(--heightA) * .75);
-  height: var(--heightB);
-}
 
 /*Learning Support*/
 .LSAdvisors {
@@ -924,6 +932,25 @@ img.imgTestimonial {
 /*College Life*/
 span.card-title.gradientRadPurple.white-text.center-align {
   width: 100%;
+}
+
+.clOverlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  width: calc(100%);
+  height: 0;
+  transition: 0.5s ease;
+  z-index: 5;
+}
+
+.sqThree:hover .clOverlay {
+  height: calc(100%);
+}
+
+.col.l3.m4.s6.sqThree {
+  padding: .125rem;
 }
 
 /*Call To Actions*/

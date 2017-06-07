@@ -106,6 +106,12 @@ if (drupal_is_front_page()) {
                 }
             })
         })
+        document.getElementById('leftArrow').addEventListener('click', function () {
+            jQuery('.slidera').slick('slickPrev');;
+        }, false);
+        document.getElementById('rightArrow').addEventListener('click', function () {
+            jQuery('.slidera').slick('slickNext');;
+        }, false);
     </script>
 <?php } ?>
 <script>
@@ -123,7 +129,7 @@ if (drupal_is_front_page()) {
             }
         );
         jQuery('.modal').modal();
-        jQuery('.slider').slick({
+        jQuery('.slidera').slick({
             arrows: false,
             mobileFirst: true,
             slidesToShow: 5,
@@ -141,12 +147,54 @@ if (drupal_is_front_page()) {
                         slidesToShow: 3
                     }
                 },
-//                {
-//                    breakpoint: 600,
-//                    settings: {
-//                        slidesToShow: 2
-//                    }
-//                },
+                {
+                    breakpoint: 720,
+                    settings: {
+                        slidesToShow: 1
+                    }
+                }
+            ]
+        });
+        jQuery('.sliderb').slick({
+            arrows: false,
+            autoplay: true,
+            autoplaySpeed: 3000,
+            mobileFirst: true,
+            slidesToShow: 4,
+            swipeToSlide: true,
+            responsive: [
+                {
+                    breakpoint: 992,
+                    settings: {
+                        slidesToShow: 3
+                    }
+                },
+                {
+                    breakpoint: 720,
+                    settings: {
+                        slidesToShow: 2
+                    }
+                }
+            ]
+        });
+        jQuery('.sliderpfc').slick({
+            arrows: false,
+            mobileFirst: true,
+            slidesToShow: 5,
+            swipeToSlide: true,
+            responsive: [
+                {
+                    breakpoint: 1536,
+                    settings: {
+                        slidesToShow: 4
+                    }
+                },
+                {
+                    breakpoint: 992,
+                    settings: {
+                        slidesToShow: 3
+                    }
+                },
                 {
                     breakpoint: 720,
                     settings: {
@@ -156,10 +204,10 @@ if (drupal_is_front_page()) {
             ]
         });
         document.getElementById('leftArrow').addEventListener('click', function () {
-            jQuery('.slider').slick('slickPrev');;
+            jQuery('.sliderpfc').slick('slickPrev');;
         }, false);
         document.getElementById('rightArrow').addEventListener('click', function () {
-            jQuery('.slider').slick('slickNext');;
+            jQuery('.sliderpfc').slick('slickNext');;
         }, false);
     });
     document.getElementById('closeSideNav').addEventListener('click', function () {

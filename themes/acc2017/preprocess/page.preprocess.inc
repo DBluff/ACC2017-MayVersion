@@ -74,7 +74,6 @@ function acc2017_preprocess_page(&$variables) {
         }
       }
     }
-    drupal_add_js(drupal_get_path('theme', 'acc2017') . '/js/carouselFix.js');
     $variables['scripts'] = drupal_get_js();
   }
   if (!empty($variables['page']['sidebar_first'])) {

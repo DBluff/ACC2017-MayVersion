@@ -272,7 +272,7 @@
                         </div>
                         <br/>
                         <div class="row" id="spotCar">
-                            <div class="slider">
+                            <div class="slidera">
                               <?php
                               $spotCounter = 0;
                               foreach ($lightTitle as $spots) { ?>
@@ -317,120 +317,6 @@
                         </div>
                     </div>
                 </div>
-                <!--                <div class="row row-band homeSpotlight noSideMargin">-->
-                <!--                    <div class="section">-->
-                <!--                        <div class="container" id="spotlightCont">-->
-                <!--                            <div class="row lineup">-->
-                <!--                                    <h2 class="band-title white-text">in the-->
-                <!--                                        spotlight</h2>-->
-                <!--                                    <a href="#" class="right-align grey-text text-lighten-2 lineupAction">Visit the ACC Newsroom ></a>-->
-                <!--                            </div>-->
-                <!--                            <div class="row">-->
-                <!--                                <div class="dividerDiagGrey"></div>-->
-                <!--                            </div>-->
-                <!--                            <br/>-->
-                <!--                            <div class="row" id="spotCar">-->
-                <!--                                <div class="hide-on-small-only">-->
-                <!--                                    <div class="carousel carousel-slider">-->
-                <!--                                        <div class="carousel-item">-->
-                <!--                                            <div class="row spotlight">-->
-                <!--                                              --><?php
-              //                                              $spotCounter = 0;
-              //                                              foreach ($lightTitle as $spots){
-              //                                              if ($spotCounter % 4 === 0 && $spotCounter !== 0){ ?>
-                <!--                                            </div>-->
-                <!--                                        </div>-->
-                <!--                                        <div class="carousel-item">-->
-                <!--                                            <div class="row spotlight">-->
-                <!--                                              --><?php //} ?>
-                <!--                                                <div class="col m6 l3 cardHeight">-->
-                <!--                                                    <div class="card">-->
-                <!--                                                        <div class="card-image">-->
-                <!--                                                            <img class="activator"-->
-                <!--                                                                 src="-->
-              <?php //print '/sites/default/files/' . ltrim($lightImage[$spotCounter], 'public://'); ?><!--">-->
-                <!--                                                        </div>-->
-                <!--                                                        <div class="card-content">-->
-                <!--                                    <span class="card-title activator grey-text text-darken-4">--><?php //print $spots ?>
-                <!--                                        <i class="material-icons right">more_vert</i></span>-->
-                <!--                                                        </div>-->
-                <!--                                                        <div class="card-reveal">-->
-                <!--                                    <span class="card-title grey-text text-darken-4">--><?php //print $lightTitle[$spotCounter] ?>
-                <!--                                        <i class="material-icons right">close</i></span>-->
-                <!--                                                            <p>-->
-              <?php //print $lightBody[$spotCounter] ?><!--</p>-->
-                <!--                                                            <p>-->
-                <!--                                                                <a href="-->
-              <?php //print $lightLink[$spotCounter] ?><!--">Full-->
-                <!--                                                                    Story ></a>-->
-                <!--                                                            </p>-->
-                <!--                                                        </div>-->
-                <!--                                                    </div>-->
-                <!--                                                </div>-->
-                <!--                                              --><?php
-              //                                              $spotCounter++;
-              //                                              }
-              //                                              ?>
-                <!--                                            </div>-->
-                <!--                                        </div>-->
-                <!--                                    </div>-->
-                <!--                                </div>-->
-                <!--                                <div class="hide-on-med-and-up">-->
-                <!--                                    <div class="carousel carousel-slider">-->
-                <!--                                      --><?php
-              //                                      $spotCounter = 0;
-              //                                      foreach ($lightTitle as $spots) { ?>
-                <!--                                          <div class="carousel-item">-->
-                <!--                                              <div class="row spotlight">-->
-                <!--                                                  <div class="cardHeight">-->
-                <!--                                                      <div class="card">-->
-                <!--                                                          <div class="card-image">-->
-                <!--                                                              <img class="activator"-->
-                <!--                                                                   src="-->
-              <?php //print '/sites/default/files/' . ltrim($lightImage[$spotCounter], 'public://'); ?><!--">-->
-                <!--                                                          </div>-->
-                <!--                                                          <div class="card-content">-->
-                <!--                                    <span class="card-title activator grey-text text-darken-4">--><?php //print $spots ?>
-                <!--                                        <i class="material-icons right">more_vert</i></span>-->
-                <!--                                                          </div>-->
-                <!--                                                          <div class="card-reveal">-->
-                <!--                                    <span class="card-title grey-text text-darken-4">--><?php //print $lightTitle[$spotCounter] ?>
-                <!--                                        <i class="material-icons right">close</i></span>-->
-                <!--                                                              <p>-->
-              <?php //print $lightBody[$spotCounter] ?><!--</p>-->
-                <!--                                                              <p>-->
-                <!--                                                                  <a href="-->
-              <?php //print $lightLink[$spotCounter] ?><!--">Full-->
-                <!--                                                                      Story-->
-                <!--                                                                      ></a>-->
-                <!--                                                              </p>-->
-                <!--                                                          </div>-->
-                <!--                                                      </div>-->
-                <!--                                                  </div>-->
-                <!--                                              </div>-->
-                <!--                                          </div>-->
-                <!--                                        --><?php
-              //                                        $spotCounter++;
-              //                                      }
-              //                                      ?>
-                <!--                                    </div>-->
-                <!--                                </div>-->
-                <!--                            </div>-->
-                <!--                        </div>-->
-                <!--                        <div class="row Arrows">-->
-                <!--                            <div id="dirArrows">-->
-                <!--                                <div id="leftArrow">-->
-                <!--                                    <h2><i class="fa fa-angle-left white-text"-->
-                <!--                                           aria-hidden="true"></i></h2>-->
-                <!--                                </div>-->
-                <!--                                <div id="rightArrow">-->
-                <!--                                    <h2><i class="fa fa-angle-right white-text"-->
-                <!--                                           aria-hidden="true"></i></h2>-->
-                <!--                                </div>-->
-                <!--                            </div>-->
-                <!--                        </div>-->
-                <!--                    </div>-->
-                <!--                </div>-->
                 <div id="fast-stats"
                      class="row row-band grey lighten-3 z-depth-3">
                     <div class="section">
@@ -461,101 +347,48 @@
                         </div>
                     </div>
                 </div>
-                <div class="row events noBottomMargin gradientRadBlue white-text z-depth-3">
-                    <div class="section">
-                        <div class="container">
-                            <div class="row lineup">
-                                <div class="col s12">
-                                    <h2 class="band-title white-text">Happening
-                                        at ACC</h2>
-                                    <a href="#"
-                                       class="valign right grey-text text-lighten-2 lineupAction">View
-                                        all
-                                        calendars >
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="dividerDiagGrey"></div>
-                            </div>
-                            <div class="row" id="hapCar">
-                                <div class="carousel carousel-slider hide-on-small-only">
-                                    <div class="carousel-item">
-                                        <div class="row white-text">
-                                          <?php
-                                          $eventCounter = 0;
-                                          foreach ($hapTitle as $happenings){
-                                          $month = date('M', strtotime($hapDate[$eventCounter]));
-                                          $date = date('j', strtotime($hapDate[$eventCounter]));
-                                          if ($eventCounter % 3 === 0 && $eventCounter !== 0){ ?>
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item"><br><br>
-                                        <div class="row white-text">
-                                          <?php } ?>
-                                            <div class="col s12 m6 l4 eventLeftBorder">
-                                                <div class="row eventUnit">
-                                                    <div class="col s12 m3">
-                                                        <div class="calendarIcon blue card xsCard">
-                                                            <div class="card-content white blue-text">
-                                                                <span class="card-title eMonth"><?php print strtoupper($month) ?></span>
-                                                                <p class="blue white-text"><?php print $date ?></p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col s12 m8">
-                                                        <p class="eventTitle">
-                                                            <strong><?php print $happenings ?></strong>
-                                                        </p>
-                                                        <p class="eventDetail"><?php print $hapBody[$eventCounter] ?></p>
-                                                        <a href="<?php print $hapLink[$eventCounter] ?>"
-                                                           class="eventDetailLink white-link">View
-                                                            Event ></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                          <?php
-                                          $eventCounter++;
-                                          }
-                                          ?>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="hide-on-med-and-up">
-                                    <ul class="collection">
-                                      <?php
-                                      $eventCounter = 0;
-                                      foreach ($hapTitle as $happenings) {
-                                        $month = date('M', strtotime($hapDate[$eventCounter]));
-                                        $date = date('j', strtotime($hapDate[$eventCounter]));
-                                        ?>
-                                          <li class="collection-item gradientRadBlue white-text">
-                                              <div class="row eventUnit">
-                                                  <div class="col s3">
-                                                      <div class="calendarIcon blue card xsCard">
-                                                          <div class="card-content white blue-text">
-                                                              <span class="card-title eMonth"><?php print strtoupper($month) ?></span>
-                                                              <p class="blue white-text"><?php print $date ?></p>
-                                                          </div>
-                                                      </div>
-                                                  </div>
-                                                  <div class="col s8 offset-s1">
-                                                      <p class="eventTitle">
-                                                          <strong><?php print $happenings ?></strong>
-                                                      </p>
-                                                      <p class="eventDetail hide-on-med-and-down"><?php print $hapBody[$eventCounter] ?></p>
-                                                      <a href="<?php print $hapLink[$eventCounter] ?>"
-                                                         class="eventDetailLink white-link">View
-                                                          Event ></a>
-                                                  </div>
-                                              </div>
-                                          </li>
-                                        <?php
-                                        $eventCounter++;
-                                      }
-                                      ?>
-                                    </ul>
-                                </div>
+                <div class="carouselBand noSideMargin events noBottomMargin gradientRadBlue white-text z-depth-3">
+                    <div class="container">
+                        <div class="row lineup">
+                            <h2 class="band-title white-text">Happening at
+                                ACC</h2>
+                            <a href="#"
+                               class="right-align grey-text text-lighten-2 lineupAction">View
+                                all calendars ></a>
+                        </div>
+                        <div class="row">
+                            <div class="dividerDiagGrey"></div>
+                        </div>
+                        <br/>
+                        <div class="row" id="hapCar">
+                            <div class="sliderb">
+                              <?php
+                              $eventCounter = 0;
+                              foreach ($hapTitle as $happenings) {
+                                $month = date('M', strtotime($hapDate[$eventCounter]));
+                                $date = date('j', strtotime($hapDate[$eventCounter]));
+                                ?>
+                                  <div class="col s12 m6 l4 eventLeftBorder">
+                                      <div class="row eventUnit">
+                                          <div class="col s12 m4 calendarIcon blue card xsCard">
+                                                  <div class="card-title eMonth white blue-text"><?php print strtoupper($month) ?></div>
+                                                  <p class="blue white-text"><?php print $date ?></p>
+                                          </div>
+                                          <div class="col s12 m8">
+                                              <p class="eventTitle">
+                                                  <strong><?php print $happenings ?></strong>
+                                              </p>
+                                              <p class="eventDetail"><?php print $hapBody[$eventCounter] ?></p>
+                                              <a href="<?php print $hapLink[$eventCounter] ?>"
+                                                 class="eventDetailLink white-link">View
+                                                  Event ></a>
+                                          </div>
+                                      </div>
+                                  </div>
+                                <?php
+                                $eventCounter++;
+                              }
+                              ?>
                             </div>
                         </div>
                     </div>

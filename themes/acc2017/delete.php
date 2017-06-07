@@ -1,58 +1,153 @@
-<div class="carouselBand noSideMargin">
-    <div class="container" id="spotlightCont">
-        <div class="row lineup">
-            <h2 class="band-title white-text">in the
-                spotlight</h2>
-            <a href="#"
-               class="right-align grey-text text-lighten-2 lineupAction">Visit
-                the ACC Newsroom ></a>
-        </div>
-        <div class="row">
-            <div class="dividerDiagGrey"></div>
-        </div>
-        <br/>
-        <div class="row" id="spotCar">
-            <div class="slider">
-              <?php
-              $spotCounter = 0;
-              foreach ($lightTitle as $spots) { ?>
-                  <div class="card z-depth-2">
-                      <div class="card-image waves-effect waves-block waves-light">
-                          <img class="activator"
-                               src="<?php print '/sites/default/files/' . ltrim($lightImage[$spotCounter], 'public://'); ?>">
-                      </div>
-                      <div class="card-content">
-                    <span class="card-title activator grey-text text-darken-4"><?php print $spots ?>
-                        <i
-                                class="material-icons right">more_vert</i></span>
-                      </div>
-                      <div class="card-reveal">
-                    <span class="card-title grey-text text-darken-4"><?php print $spots ?>
-                        <i
-                                class="material-icons right">close</i></span>
-                          <p><?php print $lightBody[$spotCounter] ?></p>
-                          <p>
-                              <a href="<?php print $lightLink[$spotCounter] ?>">Full
-                                  Story ></a>
-                          </p>
-                      </div>
-                  </div>
-                <?php
-                $spotCounter++;
-              }
-              ?>
+<div class="row row-band studLifeAct z-depth-1 grey lighten-3 noSideMargins">
+    <div class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col s12">
+                    <h2 class="band-title">Arts & Culture </h2>
+                    <div class="dividerDiagGrey"></div>
+                </div>
             </div>
-        </div>
-    </div>
-    <div class="row Arrows">
-        <div id="dirArrows">
-            <div id="leftArrow">
-                <h2><i class="fa fa-angle-left white-text"
-                       aria-hidden="true"></i></h2>
+            <div class="row">
+                <div class="col s12">
+                    <p class="flow-text">Enjoy award-winning theater, music, and
+                        dance performances, art exhibitions, renowned guest
+                        speakers, and more. There’s lots of fun and inspiring
+                        things to experience at Austin Community College. </p>
+                </div>
             </div>
-            <div id="rightArrow">
-                <h2><i class="fa fa-angle-right white-text"
-                       aria-hidden="true"></i></h2>
+            <div class="row clGallery">
+                <div class="col l3 m4 s6 sqThree">
+                    <div class="squareFour"
+                         style="background-image:url('/sites/default/files/cLifeGallery/1024x768/CLArtsCultureL001.JPG')">
+                        <div class="clOverlay blueT valign-wrapper">
+                            <div class="valign AoSinitialsHome">
+                                <h5 class="campus-card white-text">Caption
+                                    Text</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col l3 m4 s6 sqThree">
+                    <div class="squareFour"
+                         style="background-image:url('/sites/default/files/cLifeGallery/1024x768/CLArtsCultureL002.JPG')">
+                        <div class="clOverlay blueT valign-wrapper">
+                            <div class="valign AoSinitialsHome">
+                                <h5 class="campus-card white-text">Caption
+                                    Text</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col l3 m4 s6 sqThree">
+                    <div class="squareFour"
+                         style="background-image:url('/sites/default/files/cLifeGallery/1024x768/CLArtsCultureL003.JPG')">
+                        <div class="clOverlay blueT valign-wrapper">
+                            <div class="valign AoSinitialsHome">
+                                <h5 class="campus-card white-text">Caption
+                                    Text</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col l3 m4 s6 sqThree">
+                    <div class="squareFour"
+                         style="background-image:url('/sites/default/files/cLifeGallery/1024x768/CLArtsCultureL004.JPG')">
+                        <div class="clOverlay blueT valign-wrapper">
+                            <div class="valign AoSinitialsHome">
+                                <h5 class="campus-card white-text">Caption
+                                    Text</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col l3 m4 s6 sqThree">
+                    <div class="squareFour"
+                         style="background-image:url('/sites/default/files/cLifeGallery/1024x768/CLArtsCultureL005.JPG')">
+                        <div class="clOverlay blueT valign-wrapper">
+                            <div class="valign AoSinitialsHome">
+                                <h5 class="campus-card white-text">Caption
+                                    Text</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col l3 m4 s6 sqThree">
+                    <div class="squareFour"
+                         style="background-image:url('/sites/default/files/cLifeGallery/1024x768/CLArtsCultureL006.JPG')">
+                        <div class="clOverlay blueT valign-wrapper">
+                            <div class="valign AoSinitialsHome">
+                                <h5 class="campus-card white-text">Caption
+                                    Text</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col l3 m4 s6 sqThree">
+                    <div class="squareFour"
+                         style="background-image:url('/sites/default/files/cLifeGallery/1024x768/CLArtsCultureL007.JPG')">
+                        <div class="clOverlay blueT valign-wrapper">
+                            <div class="valign AoSinitialsHome">
+                                <h5 class="campus-card white-text">Caption
+                                    Text</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col l3 m4 s6 sqThree">
+                    <div class="squareFour"
+                         style="background-image:url('/sites/default/files/cLifeGallery/1024x768/CLArtsCultureL008.JPG')">
+                        <div class="clOverlay blueT valign-wrapper">
+                            <div class="valign AoSinitialsHome">
+                                <h5 class="campus-card white-text">Caption
+                                    Text</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col l3 m4 s6 sqThree">
+                    <div class="squareFour"
+                         style="background-image:url('/sites/default/files/cLifeGallery/1024x768/CLArtsCultureL009.JPG')">
+                        <div class="clOverlay blueT valign-wrapper">
+                            <div class="valign AoSinitialsHome">
+                                <h5 class="campus-card white-text">Caption
+                                    Text</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col l3 m4 s6 sqThree">
+                    <div class="squareFour"
+                         style="background-image:url('/sites/default/files/cLifeGallery/1024x768/CLArtsCultureL010.JPG')">
+                        <div class="clOverlay blueT valign-wrapper">
+                            <div class="valign AoSinitialsHome">
+                                <h5 class="campus-card white-text">Caption
+                                    Text</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col l3 m4 s6 sqThree">
+                    <div class="squareFour"
+                         style="background-image:url('/sites/default/files/cLifeGallery/1024x768/CLArtsCultureL011.JPG')">
+                        <div class="clOverlay blueT valign-wrapper">
+                            <div class="valign AoSinitialsHome">
+                                <h5 class="campus-card white-text">Caption
+                                    Text</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col l3 m4 s6 sqThree">
+                    <div class="squareFour"
+                         style="background-image:url('/sites/default/files/cLifeGallery/1024x768/CLArtsCultureL012.JPG')">
+                        <div class="clOverlay blueT valign-wrapper">
+                            <div class="valign AoSinitialsHome">
+                                <h5 class="campus-card white-text">Caption
+                                    Text</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
