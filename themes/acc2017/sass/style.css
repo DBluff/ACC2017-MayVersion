@@ -108,7 +108,7 @@ html {
   background: -o-radial-gradient(center, rgba(26, 82, 118, 0.9), rgba(0, 46, 109, 0.9));
   background: -moz-radial-gradient(center, rgba(26, 82, 118, 0.9), rgba(0, 46, 109, 0.9));
   background: radial-gradient(ellipse at center, rgba(26, 82, 118, 0.9), rgba(0, 46, 109, 0.9));
-  max-width: 82.2rem; }
+  max-width: 76.5rem; }
 
 #navPrim ul {
   padding-right: 95px; }
@@ -188,16 +188,14 @@ h6 {
   Font-family: Gotham;
   font-size: 0.9rem;
   Line-Height: 110%;
-  font-weight: 300;
+  font-weight: 400;
   text-transform: capitalize; }
 
 p {
-  Color: #424242;
   Font-family: Gotham;
   font-weight: 300; }
 
 .flow-text {
-  Color: #424242;
   Font-family: Gotham;
   font-weight: 300; }
 
@@ -295,6 +293,9 @@ input.searchbox-input {
   padding-left: 5% !important; }
 
 /*Alignment*/
+.row-band {
+  padding: 2% 0; }
+
 .noBottomMargin {
   margin-bottom: 0 !important; }
 
@@ -309,7 +310,7 @@ input.searchbox-input {
 
 .lineupAction {
   position: absolute;
-  bottom: 15px;
+  bottom: 1.5rem;
   right: 0; }
 
 .row.Title {
@@ -325,6 +326,10 @@ input.searchbox-input {
   top: calc(50% - 40px);
   width: 100vw;
   z-index: 2; }
+
+.proHero {
+  height: 75vh;
+  overflow: hidden; }
 
 .purShade {
   text-align: center;
@@ -355,7 +360,8 @@ input.searchbox-input {
   content: ""; }
 
 .hero {
-  min-width: 100vw; }
+  min-width: 100vw;
+  min-height: 75vh; }
 
 /*Button Styling*/
 .heroNextStep a.btn-flat {
@@ -474,7 +480,8 @@ input.searchbox-input {
 
 .row.Arrows {
   position: absolute;
-  top: 300px; }
+  top: calc(50% - 5rem);
+  padding-bottom: 0 !important; }
 
 #dirArrows {
   position: relative;
@@ -488,14 +495,14 @@ input.searchbox-input {
   position: absolute;
   right: 1vw; }
 
-#rightArrow:hover {
-  background-color: red; }
+.carouselBand {
+  padding: 5% 0 7% 0; }
 
 /*Happening at ACC*/
 .eventUnit p.eventTitle {
   margin-top: 20px;
   line-height: 1.5rem;
-  font-size: 18px;
+  font-size: 18px !important;
   font-weight: 400;
   color: #ffffff; }
 
@@ -504,8 +511,7 @@ input.searchbox-input {
   color: #ffffff; }
 
 .eventUnit a {
-  font-weight: 400;
-  padding-bottom: 10px; }
+  font-size: 16px !important; }
 
 .calendarIcon.blue.card.xsCard {
   border: 2px solid rgba(255, 255, 255, 0.9);
@@ -529,6 +535,10 @@ input.searchbox-input {
   margin-left: 1%;
   padding: 2%;
   font-size: 30px; }
+
+.smicons.lineupAction i:hover {
+  color: #666666 !important;
+  text-shadow: #666666 1px 1px 2px; }
 
 img.masonImg {
   max-height: 100%;
@@ -555,6 +565,9 @@ img.masonImg {
 .foot.gradientRadBlue {
   position: relative;
   top: -1px; }
+
+.smiconsInv i:hover {
+  text-shadow: #0C2637 2px 2px 3px; }
 
 .foot.gradientRadBlue a {
   font-size: 15px;
@@ -678,11 +691,6 @@ img.masonImg {
   right: 56px;
   border-right: 1px solid white; }
 
-/*Hero Call to Actions*/
-.row.right.cTA {
-  position: relative;
-  top: -7px; }
-
 /*Pride & Traditions*/
 .row.row-band.cLPride {
   background-image: url(/sites/default/files/cLifeHero.jpg);
@@ -701,6 +709,9 @@ img.imgTestimonial {
   display: block;
   top: calc(0% - 200px);
   left: calc(50% - 200px); }
+
+.qMark {
+  padding-top: 2.4rem !important; }
 
 .beginQuote {
   padding-top: 200px; }
@@ -754,6 +765,10 @@ img.imgTestimonial {
 
 .squareThree {
   max-height: 100%; }
+
+/*College Life*/
+span.card-title.gradientRadPurple.white-text.center-align {
+  width: 100%; }
 
 /*Call To Actions*/
 .cTA .btn-large {

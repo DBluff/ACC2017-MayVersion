@@ -1,60 +1,59 @@
-<?php
-global $user;
-if ($user->name == 'douglasbluff') {
-  print 'hello world';
-  $ccProgList = array();
-  $res = db_query("SELECT DISTINCT node_id FROM onet_codes WHERE node_id <> 0 ORDER BY node_id ASC;");
-  $rec = $res->fetchCol();
-  if (isset($rec)) {
-    foreach ($rec as $r) {
-      class programOnet {
-      function set_title($new_title) {
-
-      }
-      }
-      $ti = db_query("SELECT title FROM node WHERE nid = $r;");
-      $par = $ti->fetchCol();
-      $ccProgList += [$r => $par[0]];
-    }
-  }
-  foreach ($ccProgList as $c => $cc) {
-    $c = (string)$c;
-    $netArray = '$net' . $c;
-    $retonet = db_query("SELECT onet FROM onet_codes WHERE node_id = $c ORDER BY onet ASC;");
-    $reconet = $retonet->fetchCol();
-    foreach ($reconet as $a) {
-      ${$netArray}[] = $a;
-    }
-    print '<pre>';
-    print_r(${$netArray});
-    print '</pre>';
-  }
-}
-
-
-
-${$variableName} = $value;
-
-node / onet;
-node / onet;
-
-
-
-  foreach ($rec as $r) {
-    if (isset($r->node_id)) {
-      $ti = db_query("SELECT title FROM node WHERE nid = $r->node_id ORDER BY title ASC;");
-      $par = $ti->fetchCol();
-      foreach ($par as $p) {
-        if (isset($p)) {
-          $arrayName = $p . 'Array';
-          print '<br />';
-          print_r($arrayName);
-        }
-      }
-    }
-  }
-}
-
-
-//GOAL OUTPUT
-$title = array('12345onet','12345onet','12345onet');
+<div class="carouselBand noSideMargin">
+    <div class="container" id="spotlightCont">
+        <div class="row lineup">
+            <h2 class="band-title white-text">in the
+                spotlight</h2>
+            <a href="#"
+               class="right-align grey-text text-lighten-2 lineupAction">Visit
+                the ACC Newsroom ></a>
+        </div>
+        <div class="row">
+            <div class="dividerDiagGrey"></div>
+        </div>
+        <br/>
+        <div class="row" id="spotCar">
+            <div class="slider">
+              <?php
+              $spotCounter = 0;
+              foreach ($lightTitle as $spots) { ?>
+                  <div class="card z-depth-2">
+                      <div class="card-image waves-effect waves-block waves-light">
+                          <img class="activator"
+                               src="<?php print '/sites/default/files/' . ltrim($lightImage[$spotCounter], 'public://'); ?>">
+                      </div>
+                      <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4"><?php print $spots ?>
+                        <i
+                                class="material-icons right">more_vert</i></span>
+                      </div>
+                      <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4"><?php print $spots ?>
+                        <i
+                                class="material-icons right">close</i></span>
+                          <p><?php print $lightBody[$spotCounter] ?></p>
+                          <p>
+                              <a href="<?php print $lightLink[$spotCounter] ?>">Full
+                                  Story ></a>
+                          </p>
+                      </div>
+                  </div>
+                <?php
+                $spotCounter++;
+              }
+              ?>
+            </div>
+        </div>
+    </div>
+    <div class="row Arrows">
+        <div id="dirArrows">
+            <div id="leftArrow">
+                <h2><i class="fa fa-angle-left white-text"
+                       aria-hidden="true"></i></h2>
+            </div>
+            <div id="rightArrow">
+                <h2><i class="fa fa-angle-right white-text"
+                       aria-hidden="true"></i></h2>
+            </div>
+        </div>
+    </div>
+</div>

@@ -57,7 +57,7 @@
     <div class="main">
         <div class="<?php print $classes; ?>"<?php print $attributes; ?>>
             <div class="content"<?php print $content_attributes; ?>>
-                <div class="col s12 lineup">
+                <div class="col s12 lineup proHero">
                   <?php
                   $heroImage = '/sites/default/files/' . ltrim($node->field_pp_hero_image[LANGUAGE_NONE][0]['uri'], 'public://'); ?>
                     <img class="responsive-img hero"

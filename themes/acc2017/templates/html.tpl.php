@@ -84,12 +84,6 @@ if (drupal_is_front_page()) {
   }
   ?>
     <script>
-        document.getElementById('leftArrow').addEventListener('click', function () {
-            jQuery('.carousel').carousel('prev');
-        }, false);
-        document.getElementById('rightArrow').addEventListener('click', function () {
-            jQuery('.carousel').carousel('next');
-        }, false);
         jQuery(document).ready(function () {
             jQuery('input.autocomplete').autocomplete({
                 data: {
@@ -110,8 +104,8 @@ if (drupal_is_front_page()) {
                   $valLoop++;
                   } ?>
                 }
-                })
             })
+        })
     </script>
 <?php } ?>
 <script>
@@ -129,6 +123,44 @@ if (drupal_is_front_page()) {
             }
         );
         jQuery('.modal').modal();
+        jQuery('.slider').slick({
+            arrows: false,
+            mobileFirst: true,
+            slidesToShow: 5,
+            swipeToSlide: true,
+            responsive: [
+                {
+                    breakpoint: 1536,
+                    settings: {
+                        slidesToShow: 4
+                    }
+                },
+                {
+                    breakpoint: 992,
+                    settings: {
+                        slidesToShow: 3
+                    }
+                },
+//                {
+//                    breakpoint: 600,
+//                    settings: {
+//                        slidesToShow: 2
+//                    }
+//                },
+                {
+                    breakpoint: 720,
+                    settings: {
+                        slidesToShow: 1
+                    }
+                }
+            ]
+        });
+        document.getElementById('leftArrow').addEventListener('click', function () {
+            jQuery('.slider').slick('slickPrev');;
+        }, false);
+        document.getElementById('rightArrow').addEventListener('click', function () {
+            jQuery('.slider').slick('slickNext');;
+        }, false);
     });
     document.getElementById('closeSideNav').addEventListener('click', function () {
         jQuery('.button-collapse').sideNav('hide');

@@ -10,6 +10,7 @@ stylesheets[all][] = fonts/gotham/gotham.css
 stylesheets[all][] = css/colors.css
 stylesheets[all][] = sass/style.css
 stylesheets[all][] = css/responsive.css
+stylesheets[all][] = css/slick.css
 
 
 ; SCRIPTS
@@ -20,6 +21,7 @@ scripts[] = js/topPage.js
 ;scripts[] = js/linkRedirect.js
 scripts[] = js/custom.js
 scripts[] = js/spotlight.js
+scripts[] = js/slick.js
 
 ; REGIONS
 ;-------------------------------------------------------------------------------
