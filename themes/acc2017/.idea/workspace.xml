@@ -66,67 +66,23 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="html.tpl.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/html.tpl.php">
+      <file leaf-file-name="deleteSQL.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/deleteSQL.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="424">
-              <caret line="160" column="28" lean-forward="false" selection-start-line="160" selection-start-column="28" selection-end-line="160" selection-end-column="28" />
-              <folding>
-                <marker date="1496851304536" expanded="true" signature="2835:2917" ph="SELECT title... node" />
-                <marker date="1496851304536" expanded="true" signature="3247:3248" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="carouselFix.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/carouselFix.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
+            <state relative-caret-position="588">
               <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="page--front.tpl.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/page--front.tpl.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="439">
-              <caret line="378" column="93" lean-forward="true" selection-start-line="378" selection-start-column="93" selection-end-line="378" selection-end-column="93" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="delete.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/delete.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="71" column="26" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="153" selection-end-column="6" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#2;n#div#2;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#3;n#div#2;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#4;n#div#2;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#5;n#div#2;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#6;n#div#2;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#7;n#div#2;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#8;n#div#2;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#9;n#div#2;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#10;n#div#2;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#11;n#div#2;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <marker date="1496855000357" expanded="true" signature="76:159" ph="SELECT node_... onet_codes" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sass/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="411">
-              <caret line="440" column="1" lean-forward="false" selection-start-line="440" selection-start-column="1" selection-end-line="440" selection-end-column="1" />
+            <state relative-caret-position="534">
+              <caret line="979" column="1" lean-forward="true" selection-start-line="979" selection-start-column="1" selection-end-line="979" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -135,8 +91,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sass/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="590">
-              <caret line="811" column="0" lean-forward="true" selection-start-line="811" selection-start-column="0" selection-end-line="811" selection-end-column="0" />
+            <state relative-caret-position="394">
+              <caret line="804" column="59" lean-forward="true" selection-start-line="804" selection-start-column="59" selection-end-line="804" selection-end-column="59" />
               <folding />
             </state>
           </provider>
@@ -154,9 +110,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>p</find>
-      <find>prev</find>
-      <find>pre</find>
       <find>lef</find>
       <find>leftA</find>
       <find>leftAr</find>
@@ -174,16 +127,19 @@
       <find>padding-bottom</find>
       <find>&quot;col m3&quot;</find>
       <find>eventunit</find>
-      <find>calendar</find>
       <find>squareThree</find>
       <find>z-depth-2 card-panel</find>
       <find>coverlay</find>
       <find>square</find>
       <find>hover</find>
-      <find>squareFour</find>
-      <find>col m3 s6 sqThree</find>
       <find>.sqThree</find>
       <find>xscard</find>
+      <find>calendar</find>
+      <find>squareFour</find>
+      <find>col m3 s6 sqThree</find>
+      <find>btn</find>
+      <find>26a69a</find>
+      <find>039be5</find>
     </findStrings>
     <replaceStrings>
       <replace>acc2017</replace>
@@ -250,9 +206,7 @@
         <option value="$PROJECT_DIR$/js/linkRedirect.js" />
         <option value="$USER_HOME$/Downloads/Academic Programs - 2017.xml" />
         <option value="$PROJECT_DIR$/testDelete.php" />
-        <option value="$PROJECT_DIR$/deleteSQL.php" />
         <option value="$PROJECT_DIR$/sass/style.css" />
-        <option value="$USER_HOME$/AppData/Local/Temp/a97f417c-d2e3-4b94-87bf-b75bcbedcb5a/var/www/html/sites/all/libraries/materialize/css/materialize.min.css" />
         <option value="$PROJECT_DIR$/css/responsive.css" />
         <option value="$PROJECT_DIR$/templates/page--promotional_page.tpl.php" />
         <option value="$PROJECT_DIR$/carouselTest.php" />
@@ -268,7 +222,9 @@
         <option value="$PROJECT_DIR$/templates/page--front.tpl.php" />
         <option value="$PROJECT_DIR$/templates/html.tpl.php" />
         <option value="$PROJECT_DIR$/delete.php" />
+        <option value="$PROJECT_DIR$/deleteSQL.php" />
         <option value="$PROJECT_DIR$/sass/style.scss" />
+        <option value="$USER_HOME$/AppData/Local/Temp/a97f417c-d2e3-4b94-87bf-b75bcbedcb5a/var/www/html/sites/all/libraries/materialize/css/materialize.min.css" />
       </list>
     </option>
   </component>
@@ -549,19 +505,19 @@
       <workItem from="1495741028968" duration="27797000" />
       <workItem from="1496152299344" duration="71865000" />
       <workItem from="1496669627794" duration="44453000" />
-      <workItem from="1496844256539" duration="9141000" />
+      <workItem from="1496844256539" duration="11783000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="224510000" />
+    <option name="totallyTimeSpent" value="227152000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1272" y="-8" width="1296" height="1040" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928804" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27427185" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27427185" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928804" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -594,13 +550,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../../../dump/bigdump.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="43" column="22" lean-forward="true" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Downloads/field_config-data (1).bin" />
     <entry file="file://$USER_HOME$/Downloads/field_config-data.bin" />
     <entry file="file://$PROJECT_DIR$/css/style.css">
@@ -687,28 +636,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/testDelete.php" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/a97f417c-d2e3-4b94-87bf-b75bcbedcb5a/var/www/html/sites/all/libraries/materialize/css/materialize.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="5" column="47685" lean-forward="false" selection-start-line="5" selection-start-column="47685" selection-end-line="5" selection-end-column="47685" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/responsive.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="27" column="26" lean-forward="true" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/deleteSQL.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="729">
-          <caret line="35" column="12" lean-forward="true" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
-          <folding>
-            <marker date="1496697699680" expanded="true" signature="76:159" ph="SELECT node_... onet_codes" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -786,6 +718,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/carouselFix.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="15" column="55" lean-forward="true" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/html.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="424">
@@ -794,14 +734,6 @@
             <marker date="1496851304536" expanded="true" signature="2835:2917" ph="SELECT title... node" />
             <marker date="1496851304536" expanded="true" signature="3247:3248" ph="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/carouselFix.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -836,17 +768,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sass/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="590">
-          <caret line="811" column="0" lean-forward="true" selection-start-line="811" selection-start-column="0" selection-end-line="811" selection-end-column="0" />
+        <state relative-caret-position="394">
+          <caret line="804" column="59" lean-forward="true" selection-start-line="804" selection-start-column="59" selection-end-line="804" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/a97f417c-d2e3-4b94-87bf-b75bcbedcb5a/var/www/html/sites/all/libraries/materialize/css/materialize.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="2576" column="49" lean-forward="false" selection-start-line="2576" selection-start-column="46" selection-end-line="2576" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/a97f417c-d2e3-4b94-87bf-b75bcbedcb5a/var/www/html/sites/all/libraries/materialize/css/materialize.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="5" column="24260" lean-forward="true" selection-start-line="5" selection-start-column="24260" selection-end-line="5" selection-end-column="24260" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sass/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="440" column="1" lean-forward="false" selection-start-line="440" selection-start-column="1" selection-end-line="440" selection-end-column="1" />
+        <state relative-caret-position="534">
+          <caret line="979" column="1" lean-forward="true" selection-start-line="979" selection-start-column="1" selection-end-line="979" selection-end-column="1" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deleteSQL.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <marker date="1496855000357" expanded="true" signature="76:159" ph="SELECT node_... onet_codes" />
+          </folding>
         </state>
       </provider>
     </entry>

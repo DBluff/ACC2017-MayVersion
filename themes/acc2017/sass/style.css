@@ -800,6 +800,15 @@ span.card-title.gradientRadPurple.white-text.center-align {
   color: rgba(91, 44, 111, 0.8);
   background-color: #ffffff; }
 
+/*Admissions*/
+.proTipWrapper .card-panel {
+  background-image: url(/sites/default/files/geometry.png);
+  border: 3px solid rgba(0, 150, 136, 0.7); }
+
+.proTipWrapper {
+  padding-top: 5rem;
+  margin-top: 5rem; }
+
 /*Base Rem Sizing*/
 html {
   font-size: 16px; }
