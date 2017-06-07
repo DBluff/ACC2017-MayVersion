@@ -12,25 +12,12 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="wponet.install" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wponet.install">
+      <file leaf-file-name="global.css" pinned="false" current-in-tab="true">
+        <entry file="file://$USER_HOME$/AppData/Local/Temp/06ac8f5c-e2b2-4c2d-92da-a43e030bed3a/home/d1814618/testthemes/subtheme01/css/global.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+            <state relative-caret-position="677">
+              <caret line="699" column="1" lean-forward="true" selection-start-line="699" selection-start-column="1" selection-end-line="699" selection-end-column="1" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="wponet.module" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wponet.module">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="18" column="1" lean-forward="false" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-              <folding>
-                <marker date="1496870985973" expanded="true" signature="50:133" ph="SELECT node_... onet_codes" />
-                <marker date="1496870985973" expanded="true" signature="212:247" ph="SELECT title... node" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -42,6 +29,7 @@
       <list>
         <option value="$PROJECT_DIR$/wponet.install" />
         <option value="$PROJECT_DIR$/wponet.module" />
+        <option value="$USER_HOME$/AppData/Local/Temp/06ac8f5c-e2b2-4c2d-92da-a43e030bed3a/home/d1814618/testthemes/subtheme01/css/global.css" />
       </list>
     </option>
   </component>
@@ -96,6 +84,11 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -198,13 +191,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="705000" />
+    <option name="totallyTimeSpent" value="2669000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1272" y="-8" width="1296" height="1040" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928804" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -267,6 +260,14 @@
             <marker date="1496870985973" expanded="true" signature="50:133" ph="SELECT node_... onet_codes" />
             <marker date="1496870985973" expanded="true" signature="212:247" ph="SELECT title... node" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/06ac8f5c-e2b2-4c2d-92da-a43e030bed3a/home/d1814618/testthemes/subtheme01/css/global.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="677">
+          <caret line="699" column="1" lean-forward="true" selection-start-line="699" selection-start-column="1" selection-end-line="699" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
